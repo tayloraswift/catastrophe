@@ -1,0 +1,500 @@
+SplineFontDB: 3.0
+FontName: Catastrophe
+FullName: Catastrophe
+FamilyName: Catastrophe
+Weight: Regular
+Copyright: Copyright (c) 2016, kelvin,,,
+UComments: "2016-3-31: Created with FontForge (http://fontforge.org)"
+Version: 001.000
+ItalicAngle: 0
+UnderlinePosition: -100
+UnderlineWidth: 50
+Ascent: 800
+Descent: 200
+InvalidEm: 0
+LayerCount: 2
+Layer: 0 0 "Back" 1
+Layer: 1 0 "Fore" 0
+XUID: [1021 629 -1283197947 14224290]
+StyleMap: 0x0000
+FSType: 0
+OS2Version: 0
+OS2_WeightWidthSlopeOnly: 0
+OS2_UseTypoMetrics: 1
+CreationTime: 1459445766
+ModificationTime: 1459537549
+OS2TypoAscent: 0
+OS2TypoAOffset: 1
+OS2TypoDescent: 0
+OS2TypoDOffset: 1
+OS2TypoLinegap: 90
+OS2WinAscent: 0
+OS2WinAOffset: 1
+OS2WinDescent: 0
+OS2WinDOffset: 1
+HheadAscent: 0
+HheadAOffset: 1
+HheadDescent: 0
+HheadDOffset: 1
+MarkAttachClasses: 1
+DEI: 91125
+Encoding: ISO8859-1
+UnicodeInterp: none
+NameList: AGL For New Fonts
+DisplaySize: -128
+AntiAlias: 1
+FitToEm: 0
+WinInfo: 72 12 7
+BeginPrivate: 0
+EndPrivate
+Grid
+-1000 680 m 0
+ 2000 680 l 1024
+-1000 450 m 0
+ 2000 450 l 1024
+EndSplineSet
+BeginChars: 256 15
+
+StartChar: n
+Encoding: 110 110 0
+Width: 590
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Fore
+SplineSet
+495 115 m 25
+ 510 45 l 25
+ 575 20 l 25
+ 575 0 l 25
+ 340 0 l 25
+ 340 20 l 25
+ 395 45 l 25
+ 410 115 l 25
+ 410 260 l 2
+ 410 357 378 387 307 387 c 3
+ 250 387 211 353 185 301 c 1
+ 180 336 l 1
+ 204 404 254 460 349 460 c 3
+ 447 460 495 417 495 270 c 2
+ 495 115 l 25
+30 445 m 1
+ 195 455 l 25
+ 180 336 l 1
+ 185 301 l 1
+ 185 115 l 1
+ 200 45 l 25
+ 255 20 l 25
+ 255 0 l 25
+ 20 0 l 25
+ 20 20 l 25
+ 85 45 l 25
+ 100 115 l 25
+ 100 330 l 25
+ 85 400 l 1
+ 30 425 l 25
+ 30 445 l 1
+EndSplineSet
+Validated: 5
+EndChar
+
+StartChar: e
+Encoding: 101 101 1
+Width: 451
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Back
+SplineSet
+243 -10 m 3
+ 90 -10 35 83 35 220 c 3
+ 35 357 100 460 237 460 c 3
+ 390 460 445 367 445 230 c 3
+ 445 93 380 -10 243 -10 c 3
+EndSplineSet
+Fore
+SplineSet
+397 91 m 1
+ 411 78 l 1
+ 372 21 319 -10 243 -10 c 3
+ 106 -10 40 83 40 220 c 3
+ 40 357 110 460 237 460 c 3
+ 351 460 405 389 405 287 c 1
+ 404 261 l 1
+ 134 261 l 1
+ 134 293 l 1
+ 253 293 l 1
+ 312 303 l 1
+ 312 374 298 417 230 417 c 3
+ 161 417 135 343 135 279 c 3
+ 135 129 182 54 276 54 c 3
+ 314 54 369 65 397 91 c 1
+EndSplineSet
+Validated: 5
+EndChar
+
+StartChar: braceleft
+Encoding: 123 123 2
+Width: 1000
+VWidth: 0
+Flags: MW
+LayerCount: 2
+Fore
+Validated: 1
+EndChar
+
+StartChar: o
+Encoding: 111 111 3
+Width: 520
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Fore
+SplineSet
+250 415 m 3
+ 171 415 140 343 140 232 c 3
+ 140 111 178 35 270 35 c 3
+ 349 35 380 107 380 218 c 3
+ 380 339 342 415 250 415 c 3
+263 -10 m 3
+ 115 -10 40 83 40 220 c 3
+ 40 357 125 460 257 460 c 3
+ 405 460 480 367 480 230 c 3
+ 480 93 395 -10 263 -10 c 3
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: p
+Encoding: 112 112 4
+Width: 525
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Fore
+SplineSet
+322 460 m 3
+ 420 460 485 384 485 245 c 3
+ 485 108 404 -5 263 -5 c 7
+ 218 -5 197 0 170 10 c 9
+ 170 55 l 17
+ 193 45 218 40 255 40 c 3
+ 333 40 395 83 395 223 c 3
+ 395 335 351 387 280 387 c 3
+ 233.989257812 387 196 353 170 301 c 1
+ 165 336 l 1
+ 189 404 234.977014531 460 322 460 c 3
+180 455 m 25
+ 165 336 l 1
+ 170 301 l 1
+ 170 -85 l 1
+ 185 -155 l 1
+ 255 -180 l 25
+ 255 -200 l 25
+ 15 -200 l 25
+ 15 -180 l 25
+ 70 -155 l 1
+ 85 -85 l 25
+ 85 330 l 1
+ 70 400 l 1
+ 15 425 l 25
+ 15 445 l 1
+ 180 455 l 25
+EndSplineSet
+Validated: 5
+EndChar
+
+StartChar: space
+Encoding: 32 32 5
+Width: 240
+VWidth: 0
+Flags: MW
+LayerCount: 2
+Fore
+Validated: 1
+EndChar
+
+StartChar: i
+Encoding: 105 105 6
+Width: 275
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Fore
+SplineSet
+70 630 m 3
+ 70 665 95 690 130 690 c 3
+ 165 690 190 665 190 630 c 3
+ 190 595 165 570 130 570 c 3
+ 95 570 70 595 70 630 c 3
+195 455 m 29
+ 185 335 l 1
+ 185 115 l 1
+ 200 45 l 25
+ 260 20 l 25
+ 260 0 l 25
+ 20 0 l 25
+ 20 20 l 25
+ 85 45 l 25
+ 100 115 l 25
+ 100 330 l 25
+ 85 400 l 1
+ 30 425 l 25
+ 30 445 l 1
+ 195 455 l 29
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: d
+Encoding: 100 100 7
+Width: 535
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Fore
+SplineSet
+130 227 m 3
+ 130 115 179 58 250 58 c 3
+ 307 58 334 86 360 119 c 1
+ 365 84 l 1
+ 341 36 303 -10 208 -10 c 3
+ 110 -10 40 66 40 205 c 3
+ 40 342 116 455 252 455 c 3
+ 302 455 333 445 360 430 c 9
+ 360 380 l 17
+ 337 399 307 410 270 410 c 3
+ 192 410 130 367 130 227 c 3
+445 560 m 9
+ 445 130 l 1
+ 460 60 l 1
+ 525 45 l 25
+ 525 25 l 1
+ 350 -10 l 25
+ 365 84 l 1
+ 360 119 l 1
+ 360 555 l 9
+ 345 625 l 1
+ 290 640 l 25
+ 290 660 l 1
+ 455 680 l 5
+ 445 560 l 9
+EndSplineSet
+Validated: 5
+EndChar
+
+StartChar: t
+Encoding: 116 116 8
+Width: 350
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Fore
+SplineSet
+170 550 m 1
+ 170 450 l 1
+ 308 450 l 1
+ 308 409 l 1
+ 170 409 l 1
+ 170 173 l 2
+ 170 87 184 57 227 57 c 3
+ 254 57 287 64 301 73 c 1
+ 315 60 l 1
+ 296 25 241 -10 185 -10 c 3
+ 98 -10 80 46 80 133 c 2
+ 80 409 l 1
+ 0 409 l 1
+ 0 424 l 1
+ 155 550 l 1
+ 170 550 l 1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: l
+Encoding: 108 108 9
+Width: 270
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Fore
+SplineSet
+95 555 m 25
+ 80 625 l 1
+ 15 640 l 25
+ 15 660 l 1
+ 190 680 l 1
+ 180 560 l 1
+ 180 115 l 1
+ 195 45 l 25
+ 255 20 l 25
+ 255 0 l 25
+ 15 0 l 25
+ 15 20 l 25
+ 80 45 l 25
+ 95 115 l 1
+ 95 555 l 25
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: c
+Encoding: 99 99 10
+Width: 450
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Fore
+SplineSet
+329 402 m 1
+ 309 412 291 417 254 417 c 3
+ 164.977539062 417 135 330 135 258 c 3
+ 135 111.330078125 190.994140625 55 284 55 c 3
+ 322 55 373 67 401 93 c 1
+ 415 80 l 1
+ 376 23 319 -10 243 -10 c 3
+ 107 -10 40 83 40 220 c 3
+ 40 357 127 460 253 460 c 3
+ 329 460 373 439 390 425 c 1
+ 392 315 l 1
+ 352 310 l 1
+ 329 402 l 1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: a
+Encoding: 97 97 11
+Width: 465
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Fore
+SplineSet
+226 460 m 3
+ 320 460 380 419 380 290 c 2
+ 380 130 l 17
+ 395 60 l 1
+ 460 45 l 25
+ 460 25 l 1
+ 285 -10 l 25
+ 300 84 l 1
+ 295 160 l 9
+ 295 280 l 2
+ 295 358 263 392 200 392 c 3
+ 149 392 107 374 76 353 c 1
+ 64 368 l 1
+ 89 411 140 460 226 460 c 3
+295 246 m 9
+ 295 214 l 17
+ 160 214 135 185.008789062 135 127 c 3
+ 135 78.98828125 158 56 202 56 c 3
+ 242.012695312 56 295 84 295 160 c 1
+ 300 84 l 1
+ 280 35 232.123046875 -10 167 -10 c 3
+ 83.9384765625 -10 40 35.7392578125 40 105 c 3
+ 40 189.758789062 102 246 295 246 c 9
+EndSplineSet
+Validated: 5
+EndChar
+
+StartChar: b
+Encoding: 98 98 12
+Width: 520
+VWidth: 0
+Flags: MW
+LayerCount: 2
+Fore
+SplineSet
+85 15 m 1
+ 85 555 l 1
+ 70 625 l 1
+ 15 640 l 25
+ 15 660 l 1
+ 180 680 l 1
+ 170 560 l 9
+ 165 351 l 1
+ 170 316 l 1
+ 170 110 l 1
+ 180 40 l 1
+ 195 35 206 32 224 32 c 3
+ 319.045898438 32 390 77 390 220 c 3
+ 390 335 356 387 280 387 c 3
+ 233.989257812 387 196 356 170 316 c 1
+ 165 351 l 1
+ 189 406 243.9765625 460 317 460 c 3
+ 420 460 480 384 480 242 c 3
+ 480 101.771484375 372 -10 223 -10 c 3
+ 165.44140625 -10 123 -1 85 15 c 1
+EndSplineSet
+Validated: 5
+EndChar
+
+StartChar: f
+Encoding: 102 102 13
+Width: 330
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Fore
+SplineSet
+95 455 m 1
+ 180 450 l 1
+ 300 450 l 1
+ 300 409 l 1
+ 0 409 l 1
+ 0 424 l 1
+ 95 455 l 1
+262 605 m 3
+ 198.969726562 605 172 587.064453125 172 555 c 3
+ 172 520 180 493 180 450 c 3
+ 180 319 180 115 180 115 c 1
+ 195 45 l 25
+ 275 20 l 25
+ 275 0 l 25
+ 20 0 l 25
+ 20 20 l 25
+ 80 45 l 25
+ 95 115 l 1
+ 95 115 95 326 95 455 c 27
+ 95 566 155 680 282 680 c 3
+ 313 680 330 676 350 668 c 9
+ 326 592 l 17
+ 310 599 287 605 262 605 c 3
+EndSplineSet
+Validated: 524293
+EndChar
+
+StartChar: v
+Encoding: 118 118 14
+Width: 490
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Fore
+SplineSet
+355 335 m 1
+ 365 405 l 25
+ 320 430 l 25
+ 320 450 l 25
+ 495 450 l 25
+ 495 430 l 25
+ 445 405 l 25
+ 405 335 l 1
+ 277 -10 l 17
+ 214 -10 l 1
+ 85 335 l 1
+ 50 405 l 1
+ 0 430 l 25
+ 0 450 l 25
+ 213 450 l 25
+ 213 430 l 25
+ 163 405 l 25
+ 178 335 l 25
+ 271 78 l 25
+ 355 335 l 1
+EndSplineSet
+Validated: 1
+EndChar
+EndChars
+EndSplineFont
