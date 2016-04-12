@@ -22,7 +22,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1459445766
-ModificationTime: 1460343524
+ModificationTime: 1460421564
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
@@ -36,7 +36,6 @@ HheadAscent: 0
 HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
-OS2Vendor: 'PfEd'
 MarkAttachClasses: 1
 DEI: 91125
 Encoding: ISO8859-1
@@ -61,7 +60,7 @@ Grid
 -1000 450 m 0
  2000 450 l 1024
 EndSplineSet
-BeginChars: 256 53
+BeginChars: 256 55
 
 StartChar: n
 Encoding: 110 110 0
@@ -851,7 +850,9 @@ StartChar: I
 Encoding: 73 73 20
 Width: 330
 VWidth: 0
-Flags: HMW
+Flags: W
+HStem: 0 21G<30 300> 630 20G<35 295>
+VStem: 120 90<89.6667 571>
 LayerCount: 2
 Back
 SplineSet
@@ -873,23 +874,23 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-120 523 m 17
- 105 603 l 25
- 35 628 l 25
- 35 650 l 25
+35 650 m 25
  295 650 l 25
  295 628 l 25
  225 603 l 25
- 210 523 l 17
- 210 127 l 5
- 225 47 l 29
- 300 22 l 29
- 300 0 l 29
+ 210 543 l 17
+ 210 127 l 1
+ 225 47 l 25
+ 300 22 l 25
+ 300 0 l 25
  30 0 l 25
  30 22 l 25
  105 47 l 25
  120 127 l 1
- 120 523 l 17
+ 120 543 l 17
+ 105 603 l 25
+ 35 628 l 25
+ 35 650 l 25
 EndSplineSet
 Validated: 1
 EndChar
@@ -1101,22 +1102,22 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-454 45 m 5
- 520 20 l 29
- 520 0 l 5
- 365 0 l 29
- 291 105 l 5
- 205 215 l 29
- 313 345 l 5
- 340 400 l 29
- 295 430 l 29
- 295 450 l 29
- 490 450 l 29
- 490 430 l 29
- 432 400 l 29
- 366 345 l 5
- 283 246 l 21
- 454 45 l 5
+454 45 m 1
+ 520 20 l 25
+ 520 0 l 1
+ 365 0 l 25
+ 291 105 l 1
+ 205 215 l 25
+ 313 345 l 1
+ 340 400 l 25
+ 295 430 l 25
+ 295 450 l 25
+ 490 450 l 25
+ 490 430 l 25
+ 432 400 l 25
+ 366 345 l 1
+ 283 246 l 17
+ 454 45 l 1
 95 555 m 25
  80 625 l 1
  15 640 l 25
@@ -1270,6 +1271,7 @@ SplineSet
  173 405 l 25
  206 335 l 17
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: q
@@ -1567,9 +1569,9 @@ EndSplineSet
 Fore
 SplineSet
 35 650 m 1
- 335 650 l 18
- 557 650 650 560 650 340 c 3
- 650 120 535 0 335 0 c 10
+ 325 650 l 18
+ 547 650 650 560 650 340 c 3
+ 650 120 520 0 320 0 c 10
  30 0 l 1
  30 22 l 25
  105 47 l 25
@@ -1581,12 +1583,11 @@ SplineSet
 210 610 m 1
  210 55 l 1
  290 40 l 1
- 335 40 l 2
- 465 40 545 120 545 325 c 3
- 545 530 485 610 335 610 c 10
+ 315 40 l 2
+ 445 40 545 120 545 325 c 3
+ 545 530 465 610 315 610 c 10
  210 610 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: U
@@ -1849,19 +1850,18 @@ SplineSet
  510 406 444 366 380 350 c 1
  461 343 540 288 540 190 c 3
 440 190 m 3
- 440 301 362 320 275 320 c 2
+ 440 301 357 320 270 320 c 2
  210 320 l 1
  210 360 l 1
- 275 360 l 2
- 369 360 410 420 410 500 c 3
- 410 568 382 610 275 610 c 2
+ 270 360 l 2
+ 364 360 410 420 410 500 c 3
+ 410 568 377 610 270 610 c 2
  210 610 l 1
- 210 55 l 1
- 290 40 l 1
- 300 40 l 2
- 386 40 440 89 440 190 c 3
+ 210 50 l 1
+ 280 40 l 1
+ 295 40 l 2
+ 381 40 440 89 440 190 c 3
 EndSplineSet
-Validated: 5
 EndChar
 
 StartChar: L
@@ -1925,7 +1925,7 @@ EndChar
 
 StartChar: F
 Encoding: 70 70 46
-Width: 550
+Width: 540
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -1991,14 +1991,14 @@ SplineSet
  432 595 l 1
  352 610 l 25
  210 610 l 1
- 210 127 l 1
- 225 47 l 1
- 310 22 l 25
- 310 0 l 25
- 30 0 l 25
- 30 22 l 25
- 105 47 l 25
- 120 127 l 1
+ 210 127 l 5
+ 225 47 l 5
+ 310 22 l 29
+ 310 0 l 29
+ 30 0 l 29
+ 30 22 l 29
+ 105 47 l 29
+ 120 127 l 5
  120 523 l 17
  105 603 l 25
  35 628 l 25
@@ -2099,28 +2099,28 @@ EndChar
 
 StartChar: K
 Encoding: 75 75 49
-Width: 660
+Width: 670
 VWidth: 0
 Flags: HMW
 LayerCount: 2
 Back
 SplineSet
-464 149 m 1
- 530 124 l 25
- 530 104 l 1
- 375 104 l 25
- 301 209 l 1
- 215 319 l 25
- 323 449 l 1
- 350 504 l 25
- 305 534 l 25
- 305 554 l 25
- 500 554 l 25
- 500 534 l 25
- 442 504 l 25
- 376 449 l 1
- 293 350 l 17
- 464 149 l 1
+474 149 m 1
+ 540 124 l 25
+ 540 104 l 1
+ 385 104 l 25
+ 311 209 l 1
+ 225 319 l 25
+ 333 449 l 1
+ 360 504 l 25
+ 315 534 l 25
+ 315 554 l 25
+ 510 554 l 25
+ 510 534 l 25
+ 452 504 l 25
+ 386 449 l 1
+ 303 350 l 17
+ 474 149 l 1
 120 523 m 17
  105 603 l 25
  35 628 l 25
@@ -2141,22 +2141,23 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-544 45 m 1
- 620 22 l 25
- 620 0 l 1
- 440 0 l 25
- 371 105 l 1
- 215 320 l 1
- 408 545 l 1
- 445 600 l 25
- 390 628 l 25
- 390 650 l 25
- 605 650 l 25
- 605 628 l 25
- 537 600 l 25
- 470 545 l 1
- 300 355 l 1
- 544 45 l 1
+559 45 m 1
+ 630 22 l 25
+ 630 0 l 1
+ 450 0 l 25
+ 381 105 l 1
+ 225 320 l 1
+ 418 545 l 1
+ 455 600 l 25
+ 400 628 l 25
+ 400 650 l 25
+ 615 650 l 25
+ 615 628 l 25
+ 547 600 l 25
+ 480 545 l 1
+ 310 355 l 1
+ 480 130 l 1
+ 559 45 l 1
 120 523 m 17
  105 603 l 25
  35 628 l 25
@@ -2175,7 +2176,6 @@ SplineSet
  120 127 l 1
  120 523 l 17
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: M
@@ -2297,6 +2297,107 @@ SplineSet
  575 0 l 1
 EndSplineSet
 Validated: 1
+EndChar
+
+StartChar: P
+Encoding: 80 80 53
+Width: 560
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+275 270 m 2
+ 210 270 l 1
+ 210 310 l 1
+ 260 310 l 2
+ 354 310 415 370 415 470 c 3
+ 415 560 377 610 270 610 c 2
+ 210 610 l 1
+ 210 127 l 1
+ 225 47 l 1
+ 310 22 l 25
+ 310 0 l 25
+ 30 0 l 25
+ 30 22 l 25
+ 105 47 l 25
+ 120 127 l 1
+ 120 523 l 17
+ 105 603 l 25
+ 35 628 l 25
+ 35 650 l 1
+ 300 650 l 2
+ 450 650 515 580 515 470 c 3
+ 515 370 420 270 275 270 c 2
+EndSplineSet
+EndChar
+
+StartChar: R
+Encoding: 82 82 54
+Width: 590
+VWidth: 0
+Flags: HWO
+LayerCount: 2
+Back
+SplineSet
+275 270 m 6
+ 210 270 l 5
+ 210 310 l 5
+ 260 310 l 6
+ 354 310 415 370 415 470 c 7
+ 415 560 377 610 270 610 c 6
+ 210 610 l 5
+ 210 127 l 5
+ 225 47 l 5
+ 310 22 l 29
+ 310 0 l 29
+ 30 0 l 29
+ 30 22 l 29
+ 105 47 l 29
+ 120 127 l 5
+ 120 523 l 21
+ 105 603 l 29
+ 35 628 l 29
+ 35 650 l 5
+ 300 650 l 6
+ 450 650 515 580 515 470 c 7
+ 515 370 420 270 275 270 c 6
+EndSplineSet
+Fore
+SplineSet
+380 330 m 1
+ 478 130 l 1
+ 529 45 l 1
+ 590 22 l 25
+ 590 0 l 1
+ 430 0 l 25
+ 389 105 l 1
+ 295 310 l 1
+ 380 330 l 1
+295 310 m 9
+ 210 310 l 1
+ 210 350 l 1
+ 265 350 l 2
+ 354 350 410 395 410 490 c 3
+ 410 570 367 610 260 610 c 2
+ 210 610 l 1
+ 210 122 l 1
+ 225 42 l 1
+ 280 22 l 25
+ 280 0 l 25
+ 30 0 l 25
+ 30 22 l 25
+ 105 47 l 25
+ 120 127 l 1
+ 120 523 l 17
+ 105 603 l 25
+ 35 628 l 25
+ 35 650 l 1
+ 295 650 l 2
+ 445 650 510 590 510 490 c 3
+ 510 405 436 346 380 330 c 1
+ 295 310 l 9
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
