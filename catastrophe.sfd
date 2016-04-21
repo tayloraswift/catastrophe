@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1459445766
-ModificationTime: 1460862975
+ModificationTime: 1461201582
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -46,13 +46,13 @@ OS2Vendor: 'PfEd'
 MarkAttachClasses: 1
 DEI: 91125
 LangName: 1033
-Encoding: ISO8859-1
+Encoding: iso8859-15
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 14 14 7
+WinInfo: 28 14 7
 BeginPrivate: 1
 BlueValues 31 [-10 0 450 460 650 660 680 680]
 EndPrivate
@@ -72,7 +72,7 @@ Grid
 -1000 450 m 0
  2000 450 l 1024
 EndSplineSet
-BeginChars: 256 71
+BeginChars: 263 86
 
 StartChar: n
 Encoding: 110 110 0
@@ -239,11 +239,11 @@ Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-67 617 m 3
- 67 654 93 680 130 680 c 3
- 167 680 193 654 193 617 c 3
- 193 580 167 554 130 554 c 3
- 93 554 67 580 67 617 c 3
+67 617 m 7
+ 67 654 93 680 130 680 c 7
+ 167 680 193 654 193 617 c 7
+ 193 580 167 554 130 554 c 7
+ 93 554 67 580 67 617 c 7
 195 455 m 25
  185 335 l 1
  185 115 l 1
@@ -684,11 +684,11 @@ SplineSet
  380 470 l 1
  442 519 l 1
  460 515 l 1
-141 172 m 9
- 173 160 l 17
- 158 143 148 128 148 113 c 3
- 148 86 185 77 257 77 c 3
- 388 77 465 55 465 -36 c 3
+141 182 m 9
+ 173 170 l 17
+ 158 153 148 123 148 108 c 3
+ 148 81 185 72 257 72 c 3
+ 388 72 465 55 465 -36 c 3
  465 -135 352 -220 225 -220 c 3
  123 -220 40 -191 40 -98 c 3
  40 -43 76 -5 131 23 c 9
@@ -696,19 +696,19 @@ SplineSet
  116 -20 112 -36 112 -70 c 3
  112 -129 169 -165 251 -165 c 3
  330 -165 397 -138 397 -68 c 3
- 397 -23 342 -5 240 -5 c 3
- 116 -5 71 23 71 72 c 3
- 71 99 106 144 141 172 c 9
+ 397 -23 342 -10 240 -10 c 3
+ 116 -10 71 23 71 72 c 3
+ 71 99 106 154 141 182 c 9
 233 419 m 3
- 183 419 155 388 155 310 c 3
- 155 225 188 191 247 191 c 3
- 297 191 325 222 325 300 c 3
+ 183 419 155 388 155 315 c 3
+ 155 235 188 201 247 201 c 3
+ 297 201 325 232 325 305 c 3
  325 386 292 419 233 419 c 3
-242 150 m 3
- 118 150 60 206 60 302 c 3
+242 160 m 3
+ 118 160 60 216 60 307 c 3
  60 398 126 460 238 460 c 3
- 362 460 420 404 420 308 c 3
- 420 212 354 150 242 150 c 3
+ 362 460 420 404 420 313 c 3
+ 420 222 354 160 242 160 c 3
 EndSplineSet
 Validated: 5
 EndChar
@@ -1403,11 +1403,11 @@ Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-50 265 m 1
- 270 265 l 1
- 270 210 l 1
- 50 210 l 1
- 50 265 l 1
+50 275 m 5
+ 270 275 l 5
+ 270 220 l 5
+ 50 220 l 5
+ 50 275 l 5
 EndSplineSet
 Validated: 1
 EndChar
@@ -2840,16 +2840,8 @@ VWidth: 0
 Flags: HMW
 LayerCount: 2
 Fore
-SplineSet
-50 616 m 3
- 50 651 75 680 115 680 c 3
- 155 680 185 648 185 599 c 3
- 185 515 134 461 76 431 c 9
- 56 466 l 1
- 89 482 122 508 115 560 c 1
- 75 560 50 584 50 616 c 3
-EndSplineSet
-Validated: 33
+Refer: 71 8217 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: quotedbl
@@ -3009,28 +3001,9 @@ Encoding: 53 53 66
 GlifName: five
 Width: 520
 VWidth: 0
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
-SplineSet
-200 295 m 5
- 195 330 l 5
- 285 350 325 390 325 460 c 7
- 325 535 280 570 210 570 c 7
- 145 570 112 533 82 503 c 5
- 65 515 l 5
- 90 565 140 640 245 640 c 7
- 350 640 410 590 410 485 c 7
- 410 410 345 355 295 340 c 5
- 390 320 440 265 440 175 c 7
- 440 35 310 -10 210 -10 c 7
- 170 -10 115 -5 50 20 c 5
- 80 115 l 5
- 130 75 190 45 260 45 c 7
- 315 45 355 80 355 140 c 7
- 355 225 300 285 200 295 c 5
-EndSplineSet
-Fore
 SplineSet
 350 630 m 1
  430 640 l 1
@@ -3046,6 +3019,24 @@ SplineSet
  375 235 315 315 95 325 c 1
  110 630 l 25
  350 630 l 1
+EndSplineSet
+Fore
+SplineSet
+430 640 m 1
+ 420 555 l 1
+ 155 555 l 1
+ 148 390 l 1
+ 168 392 190 393 205 393 c 3
+ 405 393 450 290 450 195 c 3
+ 450 55 330 -10 230 -10 c 3
+ 190 -10 125 -5 60 20 c 1
+ 90 115 l 1
+ 145 75 210 50 275 50 c 3
+ 330 50 375 90 375 150 c 3
+ 375 245 325 325 95 325 c 1
+ 110 630 l 25
+ 350 630 l 1
+ 430 640 l 1
 EndSplineSet
 Validated: 1
 EndChar
@@ -3081,9 +3072,9 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-380 640 m 9
- 390 610 l 21
- 220 555 145 430 145 230 c 3
+380 650 m 13
+ 390 620 l 21
+ 210 565 145 430 145 230 c 3
  145 100 190 35 255 35 c 3
  330 35 370 95 370 190 c 3
  370 295 336 332 260 332 c 3
@@ -3093,8 +3084,9 @@ SplineSet
  400 405 460 344 460 212 c 3
  460 77 360 -10 250 -10 c 3
  140 -10 55 62 55 219 c 3
- 55 437 170 595 380 640 c 9
+ 55 437 160 615 380 650 c 13
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: nine
@@ -3123,9 +3115,9 @@ Fore
 SplineSet
 270 640 m 3
  380 640 460 568 460 411 c 3
- 460 193 345 40 140 -10 c 9
- 130 20 l 17
- 295 80 370 200 370 400 c 3
+ 460 193 355 35 140 -10 c 13
+ 130 20 l 21
+ 305 80 370 200 370 400 c 3
  370 530 330 595 265 595 c 3
  190 595 150 535 150 445 c 3
  150 345 199 308 270 308 c 3
@@ -3135,6 +3127,7 @@ SplineSet
  135 240 60 296 60 423 c 3
  60 553 160 640 270 640 c 3
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: seven
@@ -3191,6 +3184,269 @@ SplineSet
  455 65 380 -10 245 -10 c 3
 EndSplineSet
 Validated: 5
+EndChar
+
+StartChar: quoteright
+Encoding: 256 8217 71
+Width: 240
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Fore
+SplineSet
+50 616 m 3
+ 50 651 75 680 115 680 c 3
+ 155 680 185 648 185 599 c 3
+ 185 515 134 461 76 431 c 9
+ 56 466 l 1
+ 89 482 122 508 115 560 c 1
+ 75 560 50 584 50 616 c 3
+EndSplineSet
+Validated: 33
+EndChar
+
+StartChar: quoteleft
+Encoding: 257 8216 72
+Width: 240
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Fore
+Refer: 71 8217 N -1 0 0 -1 240 1116 2
+Validated: 1
+EndChar
+
+StartChar: quotedblright
+Encoding: 258 8221 73
+Width: 440
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Fore
+Refer: 71 8217 N 1 0 0 1 200 0 2
+Refer: 71 8217 N 1 0 0 1 0 0 2
+Validated: 1
+EndChar
+
+StartChar: quotedblleft
+Encoding: 259 8220 74
+Width: 440
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Fore
+Refer: 73 8221 N -1 0 0 -1 440 1116 2
+Validated: 1
+EndChar
+
+StartChar: endash
+Encoding: 260 8211 75
+Width: 500
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Fore
+SplineSet
+0 275 m 1
+ 500 275 l 1
+ 500 225 l 1
+ 0 225 l 1
+ 0 275 l 1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: emdash
+Encoding: 261 8212 76
+Width: 1000
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Fore
+SplineSet
+0 275 m 1
+ 1000 275 l 1
+ 1000 225 l 5
+ 0 225 l 5
+ 0 275 l 1
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: parenleft
+Encoding: 40 40 77
+Width: 325
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Fore
+SplineSet
+125 265 m 3
+ 125 85 195 -65 285 -140 c 1
+ 270 -160 l 1
+ 120 -80 40 85 40 265 c 3
+ 40 445 120 610 270 690 c 1
+ 285 670 l 1
+ 195 595 125 445 125 265 c 3
+EndSplineSet
+Validated: 1
+EndChar
+
+StartChar: parenright
+Encoding: 41 41 78
+Width: 325
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Fore
+Refer: 77 40 N -1 0 0 -1 325 530 2
+Validated: 1
+EndChar
+
+StartChar: plus
+Encoding: 43 43 79
+Width: 600
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Fore
+SplineSet
+50 275 m 1
+ 550 275 l 1
+ 550 225 l 1
+ 50 225 l 1
+ 50 275 l 1
+275 500 m 1
+ 325 500 l 1
+ 325 0 l 1
+ 275 0 l 1
+ 275 500 l 1
+EndSplineSet
+Validated: 5
+Colour: ff00ff
+EndChar
+
+StartChar: multiply
+Encoding: 215 215 80
+Width: 600
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Fore
+SplineSet
+65 48 m 1
+ 500 487 l 1
+ 535 452 l 1
+ 100 13 l 1
+ 65 48 l 1
+65 452 m 1
+ 100 487 l 1
+ 535 48 l 1
+ 500 13 l 1
+ 65 452 l 1
+EndSplineSet
+Validated: 5
+Colour: ff00ff
+EndChar
+
+StartChar: less
+Encoding: 60 60 81
+Width: 475
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Fore
+SplineSet
+100 250 m 1
+ 340 490 l 1
+ 375 455 l 1
+ 170 250 l 1
+ 375 45 l 1
+ 340 10 l 1
+ 100 250 l 1
+EndSplineSet
+Validated: 1
+Colour: ff00ff
+EndChar
+
+StartChar: greater
+Encoding: 62 62 82
+Width: 475
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Fore
+Refer: 81 60 S -1 0 0 -1 475 500 2
+Validated: 1
+Colour: ff00ff
+EndChar
+
+StartChar: minus
+Encoding: 262 8722 83
+Width: 600
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Fore
+SplineSet
+50 275 m 5
+ 550 275 l 5
+ 550 225 l 5
+ 50 225 l 5
+ 50 275 l 5
+EndSplineSet
+Validated: 1
+Colour: ffff
+EndChar
+
+StartChar: divide
+Encoding: 247 247 84
+Width: 600
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Fore
+SplineSet
+245 85 m 3
+ 245 117 268 140 300 140 c 3
+ 332 140 355 117 355 85 c 3
+ 355 53 332 30 300 30 c 3
+ 268 30 245 53 245 85 c 3
+245 415 m 3
+ 245 447 268 470 300 470 c 3
+ 332 470 355 447 355 415 c 3
+ 355 383 332 360 300 360 c 3
+ 268 360 245 383 245 415 c 3
+50 275 m 1
+ 550 275 l 1
+ 550 225 l 1
+ 50 225 l 1
+ 50 275 l 1
+EndSplineSet
+Validated: 1
+Colour: ff00ff
+EndChar
+
+StartChar: equal
+Encoding: 61 61 85
+Width: 540
+VWidth: 0
+Flags: HMW
+LayerCount: 2
+Fore
+SplineSet
+50 370 m 1
+ 490 370 l 1
+ 490 320 l 1
+ 50 320 l 1
+ 50 370 l 1
+50 180 m 1
+ 490 180 l 1
+ 490 130 l 1
+ 50 130 l 1
+ 50 180 l 1
+EndSplineSet
+Validated: 1
 EndChar
 EndChars
 EndSplineFont

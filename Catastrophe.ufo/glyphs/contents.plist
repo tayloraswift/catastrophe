@@ -144,5 +144,35 @@
     <string>seven.glif</string>
     <key>eight</key>
     <string>eight.glif</string>
+    <key>quoteright</key>
+    <string>quoteright.glif</string>
+    <key>quoteleft</key>
+    <string>quoteleft.glif</string>
+    <key>quotedblright</key>
+    <string>quotedblright.glif</string>
+    <key>quotedblleft</key>
+    <string>quotedblleft.glif</string>
+    <key>endash</key>
+    <string>endash.glif</string>
+    <key>emdash</key>
+    <string>emdash.glif</string>
+    <key>parenleft</key>
+    <string>parenleft.glif</string>
+    <key>parenright</key>
+    <string>parenright.glif</string>
+    <key>plus</key>
+    <string>plus.glif</string>
+    <key>multiply</key>
+    <string>multiply.glif</string>
+    <key>less</key>
+    <string>less.glif</string>
+    <key>greater</key>
+    <string>greater.glif</string>
+    <key>minus</key>
+    <string>minus.glif</string>
+    <key>divide</key>
+    <string>divide.glif</string>
+    <key>equal</key>
+    <string>equal.glif</string>
   </dict>
 </plist>
