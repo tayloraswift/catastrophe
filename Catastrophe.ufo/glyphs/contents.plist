@@ -174,5 +174,7 @@
     <string>divide.glif</string>
     <key>equal</key>
     <string>equal.glif</string>
+    <key>question</key>
+    <string>question.glif</string>
   </dict>
 </plist>
