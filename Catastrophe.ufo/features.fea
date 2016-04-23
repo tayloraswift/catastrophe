@@ -6,7 +6,8 @@
 	\K \M \N \P \R \S \T \X \V \Z \W \quotesingle \quotedbl \zero \one \two \three \four \five 
 	\six \nine \seven \eight \quoteright \quoteleft \quotedblright \quotedblleft 
 	\endash \emdash \parenleft \parenright \plus \multiply \less \greater \minus 
-	\divide \equal \question ];
+	\divide \equal \question \dollar \bar \slash \numbersign \percent \ampersand 
+	\asterisk \bracketleft \backslash \bracketright ];
 
 table GDEF {
   GlyphClassDef @GDEF_Simple, , , ;
