@@ -196,5 +196,21 @@
     <string>backslash.glif</string>
     <key>bracketright</key>
     <string>bracketright.glif</string>
+    <key>acircumflex</key>
+    <string>acircumflex.glif</string>
+    <key>asciicircum</key>
+    <string>asciicircum.glif</string>
+    <key>underscore</key>
+    <string>underscore.glif</string>
+    <key>egrave</key>
+    <string>egrave.glif</string>
+    <key>grave</key>
+    <string>grave.glif</string>
+    <key>braceleft</key>
+    <string>braceleft.glif</string>
+    <key>braceright</key>
+    <string>braceright.glif</string>
+    <key>degree</key>
+    <string>degree.glif</string>
   </dict>
 </plist>
