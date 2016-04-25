@@ -8,7 +8,7 @@
 	\endash \emdash \parenleft \parenright \plus \multiply \less \greater \minus 
 	\divide \equal \question \dollar \bar \slash \numbersign \percent \ampersand 
 	\asterisk \bracketleft \backslash \bracketright \acircumflex \asciicircum 
-	\underscore \egrave \grave \braceleft \braceright \degree ];
+	\underscore \egrave \grave \braceleft \braceright \degree \guillemotleft ];
 
 table GDEF {
   GlyphClassDef @GDEF_Simple, , , ;
