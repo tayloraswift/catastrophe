@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1459445766
-ModificationTime: 1461704035
+ModificationTime: 1461704336
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -52,7 +52,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 112 14 7
+WinInfo: 84 14 7
 BeginPrivate: 1
 BlueValues 31 [-10 0 450 460 650 660 680 680]
 EndPrivate
@@ -761,9 +761,9 @@ EndChar
 StartChar: s
 Encoding: 115 115 15
 GlifName: s
-Width: 360
+Width: 370
 VWidth: 0
-Flags: HMW
+Flags: HMWO
 LayerCount: 2
 Fore
 SplineSet
@@ -772,16 +772,15 @@ SplineSet
  280 170 95 215 95 325 c 3
  95 395 160 460 260 460 c 3
  325 460 380 440 400 420 c 1
- 335 335 l 1
- 315 380 275 415 215 415 c 3
+ 335 330 l 1
+ 315 375 275 415 215 415 c 3
  185 415 165 395 165 370 c 3
  165 290 350 245 350 135 c 3
  350 50 298 -10 175 -10 c 3
  110 -10 45 15 25 35 c 1
- 85 130 l 1
- 110 85 170 35 225 35 c 3
+ 85 135 l 1
+ 110 90 170 35 225 35 c 3
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: g
@@ -793,13 +792,13 @@ Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-400 0 m 5
- 370 -150 250 -215 135 -215 c 7
- 75 -215 25 -200 0 -185 c 13
- 35 -90 l 21
- 85 -135 140 -170 200 -170 c 7
- 255 -170 285 -132 305 -32 c 5
- 370 280 l 5
+400 0 m 1
+ 370 -150 250 -215 135 -215 c 3
+ 75 -215 25 -200 0 -185 c 9
+ 35 -85 l 17
+ 85 -125 150 -165 210 -165 c 3
+ 260 -165 285 -132 305 -32 c 1
+ 370 280 l 1
  325 160 240 -10 150 -10 c 3
  80 -10 55 50 55 140 c 3
  55 280 145 460 315 460 c 3
@@ -810,8 +809,8 @@ SplineSet
  145 100 160 63 190 63 c 3
  245 63 335 205 385 395 c 1
  480 425 l 1
- 450 315 l 5
- 400 0 l 5
+ 450 315 l 1
+ 400 0 l 1
 EndSplineSet
 EndChar
 
@@ -865,9 +864,9 @@ SplineSet
  425 0 l 1
  395 -150 275 -215 160 -215 c 3
  100 -215 45 -200 20 -185 c 13
- 55 -90 l 21
- 105 -135 165 -170 225 -170 c 3
- 280 -170 310 -132 330 -32 c 1
+ 55 -85 l 21
+ 105 -125 180 -165 240 -165 c 3
+ 290 -165 310 -132 330 -32 c 1
  395 280 l 1
 EndSplineSet
 EndChar
@@ -1179,7 +1178,7 @@ Encoding: 120 120 25
 GlifName: x
 Width: 470
 VWidth: 0
-Flags: HMWO
+Flags: HMW
 LayerCount: 2
 Back
 SplineSet
@@ -1250,7 +1249,7 @@ EndChar
 StartChar: q
 Encoding: 113 113 26
 GlifName: q
-Width: 480
+Width: 470
 VWidth: 0
 Flags: HMW
 LayerCount: 2
