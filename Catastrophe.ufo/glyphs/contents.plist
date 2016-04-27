@@ -212,5 +212,7 @@
     <string>braceright.glif</string>
     <key>degree</key>
     <string>degree.glif</string>
+    <key>.notdef</key>
+    <string>_notdef.glif</string>
   </dict>
 </plist>

@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1459445766
-ModificationTime: 1461714367
+ModificationTime: 1461773905
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -3701,14 +3701,13 @@ SplineSet
  285 680 l 1
  285 655 l 25
  190 633 l 25
- 175 573 l 17
+ 175 553 l 17
  175 -18 l 1
  190 -98 l 25
  285 -120 l 25
  285 -145 l 1
  90 -145 l 25
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: backslash
@@ -3739,7 +3738,6 @@ Flags: HMW
 LayerCount: 2
 Fore
 Refer: 94 91 N -1 0 0 -1 325 535 2
-Validated: 1
 EndChar
 
 StartChar: acircumflex
