@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1459445766
-ModificationTime: 1461686320
+ModificationTime: 1461712809
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -869,7 +869,7 @@ Encoding: 73 73 19
 GlifName: I_
 Width: 330
 VWidth: 0
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Back
 SplineSet
@@ -891,25 +891,24 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-35 650 m 29
- 295 650 l 29
- 295 628 l 29
- 225 603 l 29
- 210 543 l 21
- 210 127 l 5
- 225 47 l 29
- 300 22 l 29
- 300 0 l 29
- 30 0 l 29
- 30 22 l 29
- 105 47 l 29
- 120 127 l 5
- 120 543 l 21
- 105 603 l 29
- 35 628 l 29
- 35 650 l 29
+35 650 m 25
+ 295 650 l 25
+ 295 628 l 25
+ 225 603 l 25
+ 210 523 l 17
+ 210 127 l 1
+ 225 47 l 25
+ 300 22 l 25
+ 300 0 l 25
+ 30 0 l 25
+ 30 22 l 25
+ 105 47 l 25
+ 120 127 l 1
+ 120 523 l 17
+ 105 603 l 25
+ 35 628 l 25
+ 35 650 l 25
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: u
