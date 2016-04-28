@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1459445766
-ModificationTime: 1461869998
+ModificationTime: 1461877963
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -52,7 +52,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 56 14 7
+WinInfo: 168 14 7
 BeginPrivate: 1
 BlueValues 31 [-10 0 450 460 650 660 680 680]
 EndPrivate
@@ -4670,13 +4670,23 @@ EndChar
 
 StartChar: ntilde
 Encoding: 241 241 152
-Width: 500
+Width: 575
 VWidth: 0
-Flags: MW
+Flags: HMW
 LayerCount: 2
 Fore
-Refer: 105 -1 N 1 0 0 1 0 0 2
-Validated: 1
+SplineSet
+230 680 m 3
+ 285 680 315 635 365 635 c 3
+ 390 635 420 640 455 670 c 1
+ 475 645 l 1
+ 410 580 370 565 335 565 c 3
+ 280 565 250 610 200 610 c 3
+ 175 610 145 605 110 575 c 1
+ 90 600 l 1
+ 155 665 195 680 230 680 c 3
+EndSplineSet
+Refer: 0 110 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: ograve
