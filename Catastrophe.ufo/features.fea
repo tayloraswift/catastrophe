@@ -8,7 +8,19 @@
 	\endash \emdash \parenleft \parenright \plus \multiply \less \greater \minus 
 	\divide \equal \question \dollar \bar \slash \numbersign \percent \ampersand 
 	\asterisk \bracketleft \backslash \bracketright \acircumflex \asciicircum 
-	\underscore \egrave \grave \braceleft \braceright \degree ];
+	\underscore \egrave \grave \braceleft \braceright \degree \Agrave \Aacute 
+	\Acircumflex \Atilde \Adieresis \Aring \AE \Ccedilla \Egrave \Eacute 
+	\Ecircumflex \Edieresis \Igrave \Iacute \Icircumflex \Idieresis \Eth \Ntilde 
+	\Ograve \Oacute \Ocircumflex \Otilde \Odieresis \Oslash \Ugrave \Uacute 
+	\Ucircumflex \Udieresis \Yacute \Thorn \germandbls \agrave \aacute \atilde 
+	\adieresis \aring \ae \ccedilla \eacute \ecircumflex \edieresis \igrave \iacute 
+	\icircumflex \idieresis \eth \ntilde \ograve \oacute \ocircumflex \otilde 
+	\odieresis \oslash \ugrave \uacute \ucircumflex \udieresis \yacute \thorn 
+	\ydieresis \exclamdown \cent \sterling \Euro \yen \Scaron \section \scaron 
+	\copyright \ordfeminine \guillemotleft \logicalnot \uni00AD \registered 
+	\macron \plusminus \uni00B2 \uni00B3 \Zcaron \mu \paragraph \periodcentered 
+	\zcaron \uni00B9 \ordmasculine \guillemotright \OE \oe \Ydieresis \questiondown 
+	\at \uni00A0 ];
 
 table GDEF {
   GlyphClassDef @GDEF_Simple, , , ;

@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1459445766
-ModificationTime: 1461867480
+ModificationTime: 1461869998
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -663,6 +663,7 @@ SplineSet
  137 45 166 35 203 35 c 3
  252 35 286 51 286 95 c 3
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: g
@@ -1685,6 +1686,7 @@ SplineSet
  425 28 l 1
 EndSplineSet
 Refer: 35 79 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: E
@@ -1876,7 +1878,7 @@ LayerCount: 2
 Fore
 SplineSet
 540 190 m 3
- 540 81 462 0 320 0 c 2
+ 540 80 457 0 315 0 c 2
  30 0 l 1
  30 22 l 25
  105 47 l 25
@@ -1885,24 +1887,24 @@ SplineSet
  105 603 l 25
  35 628 l 25
  35 650 l 1
- 305 650 l 2
- 450 650 510 598 510 500 c 3
- 510 406 444 366 380 350 c 1
- 461 343 540 288 540 190 c 3
-440 190 m 3
- 440 301 357 320 270 320 c 2
+ 300 650 l 2
+ 445 650 510 600 510 500 c 3
+ 510 405 445 366 380 350 c 1
+ 460 343 540 290 540 190 c 3
+443 190 m 3
+ 443 300 355 320 270 320 c 2
  210 320 l 1
  210 360 l 1
  270 360 l 2
- 364 360 410 420 410 500 c 3
- 410 568 377 610 270 610 c 2
+ 370 360 413 420 413 500 c 3
+ 413 568 375 610 265 610 c 2
  210 610 l 1
  210 50 l 1
  280 40 l 1
  295 40 l 2
- 381 40 440 89 440 190 c 3
+ 380 40 443 90 443 190 c 3
 EndSplineSet
-Validated: 5
+Comment: "We lighten the bowls slightly (by 3 units) which violates the superinteger-5 rule"
 EndChar
 
 StartChar: L
@@ -2229,7 +2231,7 @@ EndChar
 StartChar: M
 Encoding: 77 77 49
 GlifName: M_
-Width: 865
+Width: 875
 Flags: HMW
 LayerCount: 2
 Back
@@ -2258,33 +2260,33 @@ EndSplineSet
 Fore
 SplineSet
 30 650 m 1
- 256 650 l 1
- 281 550 l 1
- 436 117 l 1
- 588 550 l 1
- 613 650 l 1
- 830 650 l 9
- 830 628 l 1
- 760 603 l 25
- 745 523 l 17
- 745 127 l 1
- 760 47 l 25
- 835 22 l 25
- 835 0 l 25
- 575 0 l 25
- 575 22 l 25
- 640 47 l 1
- 655 127 l 1
- 655 596 l 1
+ 250 650 l 1
+ 275 550 l 1
+ 438 115 l 1
+ 595 550 l 1
+ 620 650 l 1
+ 835 650 l 9
+ 835 628 l 1
+ 765 603 l 25
+ 750 523 l 17
+ 750 127 l 1
+ 765 47 l 25
+ 840 22 l 25
+ 840 0 l 25
+ 585 0 l 25
+ 585 22 l 25
+ 645 47 l 1
+ 660 127 l 1
+ 665 605 l 1
  482 110 l 1
- 446 0 l 1
- 381 0 l 1
- 344 110 l 1
- 165 585 l 1
+ 447 0 l 1
+ 385 0 l 1
+ 348 110 l 1
+ 165 590 l 1
  165 127 l 1
  180 47 l 1
- 245 22 l 1
- 245 0 l 17
+ 235 22 l 1
+ 235 0 l 17
  25 0 l 1
  25 22 l 1
  100 47 l 25
@@ -2294,22 +2296,21 @@ SplineSet
  30 628 l 1
  30 650 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: N
 Encoding: 78 78 50
 GlifName: N_
-Width: 670
+Width: 680
 Flags: HMW
 LayerCount: 2
 Fore
 SplineSet
-570 0 m 1
- 480 0 l 1
- 430 100 l 1
- 160 560 l 1
- 165 450 l 1
+580 0 m 1
+ 490 0 l 1
+ 440 100 l 1
+ 160 565 l 1
+ 165 455 l 1
  165 127 l 1
  180 47 l 1
  255 22 l 1
@@ -2322,22 +2323,21 @@ SplineSet
  100 603 l 25
  30 628 l 1
  30 650 l 1
- 230 650 l 1
- 280 550 l 1
- 520 140 l 1
- 515 250 l 1
- 515 523 l 1
- 500 603 l 1
- 425 628 l 1
- 425 650 l 17
- 655 650 l 1
- 655 628 l 1
- 580 603 l 25
- 565 523 l 1
- 565 120 l 1
- 570 0 l 1
+ 225 650 l 1
+ 275 550 l 1
+ 530 130 l 1
+ 525 240 l 1
+ 525 523 l 1
+ 510 603 l 1
+ 435 628 l 1
+ 435 650 l 17
+ 665 650 l 1
+ 665 628 l 1
+ 590 603 l 25
+ 575 523 l 1
+ 575 120 l 1
+ 580 0 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: P
