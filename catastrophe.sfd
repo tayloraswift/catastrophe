@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1459445766
-ModificationTime: 1461877963
+ModificationTime: 1461897896
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -52,7 +52,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 168 14 7
+WinInfo: 140 14 7
 BeginPrivate: 1
 BlueValues 31 [-10 0 450 460 650 660 680 680]
 EndPrivate
@@ -3514,11 +3514,11 @@ SplineSet
  275 630 l 5
  225 630 l 5
  210 770 l 5
-220 0 m 1
- 270 0 l 1
- 285 -140 l 1
- 205 -140 l 1
- 220 0 l 1
+220 0 m 5
+ 270 0 l 5
+ 285 -140 l 5
+ 205 -140 l 5
+ 220 0 l 5
 235 -10 m 3
  165 -10 105 5 55 35 c 1
  50 177 l 1
@@ -4834,24 +4834,34 @@ EndChar
 
 StartChar: exclamdown
 Encoding: 161 161 166
-Width: 500
+Width: 260
 VWidth: 0
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 105 -1 N 1 0 0 1 0 0 2
-Validated: 1
+Refer: 31 33 N -1 0 0 -1 260 450 2
 EndChar
 
 StartChar: cent
 Encoding: 162 162 167
-Width: 500
+Width: 440
 VWidth: 0
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 105 -1 N 1 0 0 1 0 0 2
-Validated: 1
+SplineSet
+200 590 m 5
+ 280 590 l 5
+ 265 450 l 5
+ 215 450 l 5
+ 200 590 l 5
+210 0 m 5
+ 260 0 l 5
+ 275 -140 l 5
+ 195 -140 l 5
+ 210 0 l 5
+EndSplineSet
+Refer: 9 99 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: sterling
@@ -4955,24 +4965,33 @@ EndChar
 
 StartChar: logicalnot
 Encoding: 172 172 177
-Width: 500
+Width: 540
 VWidth: 0
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 105 -1 N 1 0 0 1 0 0 2
-Validated: 1
+SplineSet
+440 320 m 1
+ 490 370 l 1
+ 490 130 l 1
+ 440 130 l 1
+ 440 320 l 1
+50 370 m 1
+ 490 370 l 1
+ 440 320 l 1
+ 50 320 l 1
+ 50 370 l 1
+EndSplineSet
 EndChar
 
 StartChar: uni00AD
 Encoding: 173 173 178
-Width: 500
+Width: 320
 VWidth: 0
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 105 -1 N 1 0 0 1 0 0 2
-Validated: 1
+Refer: 28 45 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: registered
@@ -4999,13 +5018,28 @@ EndChar
 
 StartChar: plusminus
 Encoding: 177 177 181
-Width: 500
+Width: 600
 VWidth: 0
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 105 -1 N 1 0 0 1 0 0 2
-Validated: 1
+SplineSet
+50 50 m 1
+ 550 50 l 1
+ 550 0 l 1
+ 50 0 l 1
+ 50 50 l 1
+50 370 m 1
+ 550 370 l 1
+ 550 320 l 1
+ 50 320 l 1
+ 50 370 l 1
+275 595 m 5
+ 325 595 l 5
+ 325 95 l 5
+ 275 95 l 5
+ 275 595 l 5
+EndSplineSet
 EndChar
 
 StartChar: uni00B2
@@ -5065,13 +5099,12 @@ EndChar
 
 StartChar: periodcentered
 Encoding: 183 183 187
-Width: 500
+Width: 260
 VWidth: 0
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 105 -1 N 1 0 0 1 0 0 2
-Validated: 1
+Refer: 29 46 N 1 0 0 1 0 195 2
 EndChar
 
 StartChar: zcaron
@@ -5153,13 +5186,11 @@ EndChar
 
 StartChar: questiondown
 Encoding: 191 191 195
-Width: 500
-VWidth: 0
+Width: 460
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 105 -1 N 1 0 0 1 0 0 2
-Validated: 1
+Refer: 86 63 N -1 0 0 -1 460 450 2
 EndChar
 
 StartChar: at
