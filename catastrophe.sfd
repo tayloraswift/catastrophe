@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1459445766
-ModificationTime: 1461946932
+ModificationTime: 1461951327
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -53,7 +53,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 182 14 7
+WinInfo: 168 14 7
 BeginPrivate: 1
 BlueValues 31 [-10 0 450 460 650 660 680 680]
 EndPrivate
@@ -637,7 +637,9 @@ Encoding: 115 115 15
 GlifName: s
 Width: 420
 VWidth: 0
-Flags: MW
+Flags: HMW
+AnchorPoint: "bottom" 200 0 basechar 0
+AnchorPoint: "top" 205 450 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -4564,12 +4566,70 @@ EndChar
 
 StartChar: germandbls
 Encoding: 223 223 136
-Width: 500
+Width: 590
 VWidth: 0
 Flags: HMW
 LayerCount: 2
+Back
+SplineSet
+275 630 m 3
+ 200 630 177 588 177 556 c 3
+ 177 521 180 493 180 450 c 3
+ 180 115 l 1
+ 200 0 l 25
+ 20 0 l 1
+ 20 20 l 25
+ 80 45 l 25
+ 95 115 l 1
+ 95 450 l 3
+ 95 565 170 690 305 690 c 3
+ 405 690 460 640 460 550 c 3
+ 460 485 423 453 393 433 c 1
+ 358 413 335 395 335 365 c 3
+ 335 330 358.608508025 311.243055047 425 280 c 0
+ 493 248 540 200 540 135 c 3
+ 540 35 465 -10 365 -10 c 3
+ 325 -10 295 0 265 10 c 1
+ 260 115 l 1
+ 305 120 l 1
+ 320 50 l 1
+ 340 40 365 35 385 35 c 3
+ 420 35 465 50 465 105 c 3
+ 465 150 435 171 370 205 c 0
+ 300.788112738 241.203141029 265 270 265 330 c 3
+ 265 390 325 435 370 460 c 1
+ 382 475 385 495 385 515 c 3
+ 385 580 350 630 275 630 c 3
+EndSplineSet
 Fore
-Refer: 105 -1 N 1 0 0 1 0 0 2
+SplineSet
+465 105 m 3
+ 465 205 265 210 265 330 c 3
+ 265 390 320 435 365 460 c 1
+ 377 475 380 495 380 515 c 3
+ 380 585 340 630 270 630 c 3
+ 200 630 177 588 177 556 c 3
+ 177 521 180 493 180 450 c 3
+ 180 115 l 1
+ 190 0 l 25
+ 20 0 l 1
+ 20 20 l 25
+ 80 45 l 25
+ 95 115 l 1
+ 95 450 l 3
+ 95 565 170 690 305 690 c 3
+ 410 690 455 635 455 550 c 3
+ 455 485 418 453 388 433 c 1
+ 353 413 335 395 335 365 c 3
+ 335 285 540 275 540 135 c 3
+ 540 35 465 -10 365 -10 c 3
+ 325 -10 295 0 265 10 c 1
+ 260 115 l 1
+ 305 120 l 1
+ 320 50 l 1
+ 340 40 365 35 385 35 c 3
+ 420 35 465 50 465 105 c 3
+EndSplineSet
 Validated: 1
 EndChar
 
@@ -5040,7 +5100,7 @@ VWidth: 0
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 209 780 N 1 0 0 1 450 -10 2
+Refer: 209 780 N 1 0 0 1 445 0 2
 Refer: 15 115 N 1 0 0 1 0 0 3
 Validated: 1
 Colour: a6c4ff
@@ -5131,6 +5191,7 @@ Flags: HMW
 LayerCount: 2
 Fore
 Refer: 204 772 N 1 0 0 1 0 0 2
+Validated: 1
 EndChar
 
 StartChar: plusminus
@@ -5644,6 +5705,7 @@ Flags: HMW
 LayerCount: 2
 Fore
 Refer: 105 -1 N 1 0 0 1 0 0 2
+Validated: 1
 Colour: a6c4ff
 EndChar
 
@@ -5655,6 +5717,7 @@ Flags: HMW
 LayerCount: 2
 Fore
 Refer: 105 -1 N 1 0 0 1 0 0 2
+Validated: 1
 Colour: a6c4ff
 EndChar
 
@@ -5666,6 +5729,7 @@ Flags: HMW
 LayerCount: 2
 Fore
 Refer: 105 -1 N 1 0 0 1 0 0 2
+Validated: 1
 Colour: a6c4ff
 EndChar
 
@@ -5677,6 +5741,7 @@ Flags: HMW
 LayerCount: 2
 Fore
 Refer: 105 -1 N 1 0 0 1 0 0 2
+Validated: 1
 Colour: a6c4ff
 EndChar
 EndChars
