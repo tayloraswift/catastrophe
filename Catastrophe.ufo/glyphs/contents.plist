@@ -398,5 +398,47 @@
     <string>at.glif</string>
     <key>uni00A0</key>
     <string>uni00A_0.glif</string>
+    <key>tildecomb</key>
+    <string>tildecomb.glif</string>
+    <key>uni0302</key>
+    <string>uni0302.glif</string>
+    <key>gravecomb</key>
+    <string>gravecomb.glif</string>
+    <key>acutecomb</key>
+    <string>acutecomb.glif</string>
+    <key>dotlessi</key>
+    <string>dotlessi.glif</string>
+    <key>uni0308</key>
+    <string>uni0308.glif</string>
+    <key>uni0304</key>
+    <string>uni0304.glif</string>
+    <key>uni0306</key>
+    <string>uni0306.glif</string>
+    <key>uni0307</key>
+    <string>uni0307.glif</string>
+    <key>uni030A</key>
+    <string>uni030A_.glif</string>
+    <key>uni030B</key>
+    <string>uni030B_.glif</string>
+    <key>uni030C</key>
+    <string>uni030C_.glif</string>
+    <key>uni030D</key>
+    <string>uni030D_.glif</string>
+    <key>uni0315</key>
+    <string>uni0315.glif</string>
+    <key>uni0327</key>
+    <string>uni0327.glif</string>
+    <key>amacron</key>
+    <string>amacron.glif</string>
+    <key>Amacron</key>
+    <string>A_macron.glif</string>
+    <key>abreve</key>
+    <string>abreve.glif</string>
+    <key>edotaccent</key>
+    <string>edotaccent.glif</string>
+    <key>uni0146</key>
+    <string>uni0146.glif</string>
+    <key>dcaron</key>
+    <string>dcaron.glif</string>
   </dict>
 </plist>

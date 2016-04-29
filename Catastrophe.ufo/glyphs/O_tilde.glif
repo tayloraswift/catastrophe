@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Otilde" format="1">
-  <advance width="500"/>
+  <advance width="710"/>
   <unicode hex="00D5"/>
   <outline>
-    <component base=".notdef"/>
+    <component base="tildecomb" xOffset="640" yOffset="200"/>
+    <component base="O"/>
   </outline>
 </glyph>

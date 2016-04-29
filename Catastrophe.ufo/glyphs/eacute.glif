@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="eacute" format="1">
-  <advance width="500"/>
+  <advance width="440"/>
   <unicode hex="00E9"/>
   <outline>
-    <component base=".notdef"/>
+    <component base="acutecomb" xOffset="480"/>
+    <component base="e"/>
   </outline>
 </glyph>

@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="logicalnot" format="1">
-  <advance width="500"/>
+  <advance width="540"/>
   <unicode hex="00AC"/>
   <outline>
-    <component base=".notdef"/>
+    <contour>
+      <point x="440" y="320" type="line"/>
+      <point x="490" y="370" type="line"/>
+      <point x="490" y="130" type="line"/>
+      <point x="440" y="130" type="line"/>
+    </contour>
+    <contour>
+      <point x="50" y="370" type="line"/>
+      <point x="490" y="370" type="line"/>
+      <point x="440" y="320" type="line"/>
+      <point x="50" y="320" type="line"/>
+    </contour>
   </outline>
 </glyph>
