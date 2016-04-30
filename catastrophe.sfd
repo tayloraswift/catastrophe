@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1459445766
-ModificationTime: 1461985579
+ModificationTime: 1461986974
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -53,7 +53,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 56 14 7
+WinInfo: 126 14 7
 BeginPrivate: 1
 BlueValues 31 [-10 0 450 460 650 660 680 680]
 EndPrivate
@@ -72,7 +72,7 @@ Grid
  2000 450 l 1024
 EndSplineSet
 AnchorClass2: "bottom" "'mark' Mark Positioning in Latin lookup 0-1" "top" "'mark' Mark Positioning in Latin lookup 0-1" 
-BeginChars: 285 219
+BeginChars: 318 252
 
 StartChar: n
 Encoding: 110 110 0
@@ -484,6 +484,7 @@ SplineSet
  326 594 l 17
  310 601 287 610 262 610 c 3
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: v
@@ -547,7 +548,9 @@ Encoding: 114 114 14
 GlifName: r
 Width: 385
 VWidth: 0
-Flags: MW
+Flags: HMW
+AnchorPoint: "bottom" 175 0 basechar 0
+AnchorPoint: "top" 220 450 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -671,7 +674,9 @@ Encoding: 103 103 16
 GlifName: g
 Width: 520
 VWidth: 0
-Flags: MW
+Flags: HMW
+AnchorPoint: "bottom" 250 -210 basechar 0
+AnchorPoint: "top" 270 450 basechar 0
 LayerCount: 2
 Fore
 SplineSet
@@ -2069,7 +2074,9 @@ Encoding: 71 71 46
 GlifName: G_
 Width: 700
 VWidth: 0
-Flags: MW
+Flags: HMW
+AnchorPoint: "bottom" 365 0 basechar 0
+AnchorPoint: "top" 365 650 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -2384,7 +2391,9 @@ Encoding: 82 82 52
 GlifName: R_
 Width: 600
 VWidth: 0
-Flags: MW
+Flags: HMW
+AnchorPoint: "top" 290 650 basechar 0
+AnchorPoint: "bottom" 330 0 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -3524,6 +3533,7 @@ SplineSet
  205 -140 l 1
  220 10 l 1
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: bar
@@ -3746,6 +3756,7 @@ SplineSet
  242 466 l 1
  60 441 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: bracketleft
@@ -4135,6 +4146,7 @@ EndChar
 
 StartChar: Agrave
 Encoding: 192 192 106
+GlifName: A_grave
 Width: 660
 VWidth: 0
 Flags: HMW
@@ -4148,6 +4160,7 @@ EndChar
 
 StartChar: Aacute
 Encoding: 193 193 107
+GlifName: A_acute
 Width: 660
 VWidth: 0
 Flags: HMW
@@ -4161,6 +4174,7 @@ EndChar
 
 StartChar: Acircumflex
 Encoding: 194 194 108
+GlifName: A_circumflex
 Width: 660
 VWidth: 0
 Flags: HMW
@@ -4174,6 +4188,7 @@ EndChar
 
 StartChar: Atilde
 Encoding: 195 195 109
+GlifName: A_tilde
 Width: 660
 VWidth: 0
 Flags: HMW
@@ -4187,6 +4202,7 @@ EndChar
 
 StartChar: Adieresis
 Encoding: 196 196 110
+GlifName: A_dieresis
 Width: 660
 VWidth: 0
 Flags: HMW
@@ -4200,6 +4216,7 @@ EndChar
 
 StartChar: Aring
 Encoding: 197 197 111
+GlifName: A_ring
 Width: 660
 VWidth: 0
 Flags: HMW
@@ -4213,6 +4230,7 @@ EndChar
 
 StartChar: AE
 Encoding: 198 198 112
+GlifName: A_E_
 Width: 870
 VWidth: 0
 Flags: HMW
@@ -4278,6 +4296,7 @@ EndChar
 
 StartChar: Ccedilla
 Encoding: 199 199 113
+GlifName: C_cedilla
 Width: 625
 VWidth: 0
 Flags: HMW
@@ -4290,6 +4309,7 @@ EndChar
 
 StartChar: Egrave
 Encoding: 200 200 114
+GlifName: E_grave
 Width: 575
 VWidth: 0
 Flags: HMW
@@ -4303,6 +4323,7 @@ EndChar
 
 StartChar: Eacute
 Encoding: 201 201 115
+GlifName: E_acute
 Width: 575
 VWidth: 0
 Flags: HMW
@@ -4316,6 +4337,7 @@ EndChar
 
 StartChar: Ecircumflex
 Encoding: 202 202 116
+GlifName: E_circumflex
 Width: 575
 VWidth: 0
 Flags: HMW
@@ -4329,6 +4351,7 @@ EndChar
 
 StartChar: Edieresis
 Encoding: 203 203 117
+GlifName: E_dieresis
 Width: 575
 VWidth: 0
 Flags: HMW
@@ -4342,6 +4365,7 @@ EndChar
 
 StartChar: Igrave
 Encoding: 204 204 118
+GlifName: I_grave
 Width: 330
 VWidth: 0
 Flags: HMW
@@ -4355,6 +4379,7 @@ EndChar
 
 StartChar: Iacute
 Encoding: 205 205 119
+GlifName: I_acute
 Width: 330
 VWidth: 0
 Flags: HMW
@@ -4368,6 +4393,7 @@ EndChar
 
 StartChar: Icircumflex
 Encoding: 206 206 120
+GlifName: I_circumflex
 Width: 330
 VWidth: 0
 Flags: HMW
@@ -4381,6 +4407,7 @@ EndChar
 
 StartChar: Idieresis
 Encoding: 207 207 121
+GlifName: I_dieresis
 Width: 330
 VWidth: 0
 Flags: HMW
@@ -4394,6 +4421,7 @@ EndChar
 
 StartChar: Eth
 Encoding: 208 208 122
+GlifName: E_th
 Width: 680
 VWidth: 0
 Flags: HMW
@@ -4413,6 +4441,7 @@ EndChar
 
 StartChar: Ntilde
 Encoding: 209 209 123
+GlifName: N_tilde
 Width: 680
 VWidth: 0
 Flags: HMW
@@ -4428,6 +4457,7 @@ EndChar
 
 StartChar: Ograve
 Encoding: 210 210 124
+GlifName: O_grave
 Width: 710
 VWidth: 0
 Flags: HMW
@@ -4441,6 +4471,7 @@ EndChar
 
 StartChar: Oacute
 Encoding: 211 211 125
+GlifName: O_acute
 Width: 710
 VWidth: 0
 Flags: HMW
@@ -4454,6 +4485,7 @@ EndChar
 
 StartChar: Ocircumflex
 Encoding: 212 212 126
+GlifName: O_circumflex
 Width: 710
 VWidth: 0
 Flags: HMW
@@ -4467,6 +4499,7 @@ EndChar
 
 StartChar: Otilde
 Encoding: 213 213 127
+GlifName: O_tilde
 Width: 710
 VWidth: 0
 Flags: HMW
@@ -4480,6 +4513,7 @@ EndChar
 
 StartChar: Odieresis
 Encoding: 214 214 128
+GlifName: O_dieresis
 Width: 710
 VWidth: 0
 Flags: HMW
@@ -4493,6 +4527,7 @@ EndChar
 
 StartChar: Oslash
 Encoding: 216 216 129
+GlifName: O_slash
 Width: 710
 VWidth: 0
 Flags: HMW
@@ -4511,6 +4546,7 @@ EndChar
 
 StartChar: Ugrave
 Encoding: 217 217 130
+GlifName: U_grave
 Width: 690
 VWidth: 0
 Flags: HMW
@@ -4524,6 +4560,7 @@ EndChar
 
 StartChar: Uacute
 Encoding: 218 218 131
+GlifName: U_acute
 Width: 690
 VWidth: 0
 Flags: HMW
@@ -4537,6 +4574,7 @@ EndChar
 
 StartChar: Ucircumflex
 Encoding: 219 219 132
+GlifName: U_circumflex
 Width: 690
 VWidth: 0
 Flags: HMW
@@ -4550,6 +4588,7 @@ EndChar
 
 StartChar: Udieresis
 Encoding: 220 220 133
+GlifName: U_dieresis
 Width: 690
 VWidth: 0
 Flags: HMW
@@ -4563,6 +4602,7 @@ EndChar
 
 StartChar: Yacute
 Encoding: 221 221 134
+GlifName: Y_acute
 Width: 560
 VWidth: 0
 Flags: HMW
@@ -4576,6 +4616,7 @@ EndChar
 
 StartChar: Thorn
 Encoding: 222 222 135
+GlifName: T_horn
 Width: 550
 VWidth: 0
 Flags: HMW
@@ -4615,6 +4656,7 @@ EndChar
 
 StartChar: germandbls
 Encoding: 223 223 136
+GlifName: germandbls
 Width: 580
 VWidth: 0
 Flags: HMW
@@ -4682,6 +4724,7 @@ EndChar
 
 StartChar: agrave
 Encoding: 224 224 137
+GlifName: agrave
 Width: 465
 VWidth: 0
 Flags: HMW
@@ -4695,6 +4738,7 @@ EndChar
 
 StartChar: aacute
 Encoding: 225 225 138
+GlifName: aacute
 Width: 465
 VWidth: 0
 Flags: HMW
@@ -4708,6 +4752,7 @@ EndChar
 
 StartChar: atilde
 Encoding: 227 227 139
+GlifName: atilde
 Width: 465
 VWidth: 0
 Flags: HMW
@@ -4721,6 +4766,7 @@ EndChar
 
 StartChar: adieresis
 Encoding: 228 228 140
+GlifName: adieresis
 Width: 465
 VWidth: 0
 Flags: HMW
@@ -4734,6 +4780,7 @@ EndChar
 
 StartChar: aring
 Encoding: 229 229 141
+GlifName: aring
 Width: 465
 VWidth: 0
 Flags: HMW
@@ -4747,6 +4794,7 @@ EndChar
 
 StartChar: ae
 Encoding: 230 230 142
+GlifName: ae
 Width: 675
 VWidth: 0
 Flags: HMW
@@ -4791,6 +4839,7 @@ EndChar
 
 StartChar: ccedilla
 Encoding: 231 231 143
+GlifName: ccedilla
 Width: 440
 VWidth: 0
 Flags: HM
@@ -4804,6 +4853,7 @@ EndChar
 
 StartChar: eacute
 Encoding: 233 233 144
+GlifName: eacute
 Width: 440
 VWidth: 0
 Flags: HMW
@@ -4817,6 +4867,7 @@ EndChar
 
 StartChar: ecircumflex
 Encoding: 234 234 145
+GlifName: ecircumflex
 Width: 440
 VWidth: 0
 Flags: HMW
@@ -4830,6 +4881,7 @@ EndChar
 
 StartChar: edieresis
 Encoding: 235 235 146
+GlifName: edieresis
 Width: 440
 VWidth: 0
 Flags: HMW
@@ -4843,6 +4895,7 @@ EndChar
 
 StartChar: igrave
 Encoding: 236 236 147
+GlifName: igrave
 Width: 275
 VWidth: 0
 Flags: HMW
@@ -4856,6 +4909,7 @@ EndChar
 
 StartChar: iacute
 Encoding: 237 237 148
+GlifName: iacute
 Width: 275
 VWidth: 0
 Flags: HMW
@@ -4869,6 +4923,7 @@ EndChar
 
 StartChar: icircumflex
 Encoding: 238 238 149
+GlifName: icircumflex
 Width: 275
 VWidth: 0
 Flags: HMW
@@ -4882,6 +4937,7 @@ EndChar
 
 StartChar: idieresis
 Encoding: 239 239 150
+GlifName: idieresis
 Width: 275
 VWidth: 0
 Flags: HMW
@@ -4895,6 +4951,7 @@ EndChar
 
 StartChar: eth
 Encoding: 240 240 151
+GlifName: eth
 Width: 500
 VWidth: 0
 Flags: HMW
@@ -4925,6 +4982,7 @@ EndChar
 
 StartChar: ntilde
 Encoding: 241 241 152
+GlifName: ntilde
 Width: 575
 VWidth: 0
 Flags: HMW
@@ -4938,6 +4996,7 @@ EndChar
 
 StartChar: ograve
 Encoding: 242 242 153
+GlifName: ograve
 Width: 510
 VWidth: 0
 Flags: HMW
@@ -4951,6 +5010,7 @@ EndChar
 
 StartChar: oacute
 Encoding: 243 243 154
+GlifName: oacute
 Width: 510
 VWidth: 0
 Flags: HMW
@@ -4964,6 +5024,7 @@ EndChar
 
 StartChar: ocircumflex
 Encoding: 244 244 155
+GlifName: ocircumflex
 Width: 510
 VWidth: 0
 Flags: HMW
@@ -4977,6 +5038,7 @@ EndChar
 
 StartChar: otilde
 Encoding: 245 245 156
+GlifName: otilde
 Width: 510
 VWidth: 0
 Flags: HMW
@@ -4990,6 +5052,7 @@ EndChar
 
 StartChar: odieresis
 Encoding: 246 246 157
+GlifName: odieresis
 Width: 510
 VWidth: 0
 Flags: HMW
@@ -5003,6 +5066,7 @@ EndChar
 
 StartChar: oslash
 Encoding: 248 248 158
+GlifName: oslash
 Width: 510
 VWidth: 0
 Flags: HMW
@@ -5030,6 +5094,7 @@ EndChar
 
 StartChar: ugrave
 Encoding: 249 249 159
+GlifName: ugrave
 Width: 545
 VWidth: 0
 Flags: HMW
@@ -5043,6 +5108,7 @@ EndChar
 
 StartChar: uacute
 Encoding: 250 250 160
+GlifName: uacute
 Width: 545
 VWidth: 0
 Flags: HMW
@@ -5056,6 +5122,7 @@ EndChar
 
 StartChar: ucircumflex
 Encoding: 251 251 161
+GlifName: ucircumflex
 Width: 545
 VWidth: 0
 Flags: HMW
@@ -5069,6 +5136,7 @@ EndChar
 
 StartChar: udieresis
 Encoding: 252 252 162
+GlifName: udieresis
 Width: 545
 VWidth: 0
 Flags: HMW
@@ -5082,6 +5150,7 @@ EndChar
 
 StartChar: yacute
 Encoding: 253 253 163
+GlifName: yacute
 Width: 455
 VWidth: 0
 Flags: HMW
@@ -5095,6 +5164,7 @@ EndChar
 
 StartChar: thorn
 Encoding: 254 254 164
+GlifName: thorn
 Width: 515
 VWidth: 0
 Flags: HMW
@@ -5137,6 +5207,7 @@ EndChar
 
 StartChar: ydieresis
 Encoding: 255 255 165
+GlifName: ydieresis
 Width: 455
 VWidth: 0
 Flags: HMW
@@ -5150,6 +5221,7 @@ EndChar
 
 StartChar: exclamdown
 Encoding: 161 161 166
+GlifName: exclamdown
 Width: 260
 VWidth: 0
 Flags: MW
@@ -5161,6 +5233,7 @@ EndChar
 
 StartChar: cent
 Encoding: 162 162 167
+GlifName: cent
 Width: 440
 VWidth: 0
 Flags: HMW
@@ -5184,6 +5257,7 @@ EndChar
 
 StartChar: sterling
 Encoding: 163 163 168
+GlifName: sterling
 Width: 520
 VWidth: 0
 Flags: HMW
@@ -5209,8 +5283,8 @@ SplineSet
  220 565 202 543 202 511 c 3
  202 476 210 428 210 385 c 2
  210 300 l 1
- 185 130 l 1
- 200 60 l 1
+ 185 115 l 1
+ 160 60 l 1
  365 70 l 1
  470 100 l 1
  460 -10 l 1
@@ -5220,6 +5294,7 @@ EndChar
 
 StartChar: Euro
 Encoding: 164 8364 169
+GlifName: E_uro
 Width: 520
 VWidth: 0
 Flags: HMW
@@ -5254,10 +5329,12 @@ SplineSet
  200 593 160 487 160 322 c 3
  160 142 205 37 335 37 c 3
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: yen
 Encoding: 165 165 170
+GlifName: yen
 Width: 520
 VWidth: 0
 Flags: HMW
@@ -5308,10 +5385,12 @@ SplineSet
  0 608 l 25
  0 630 l 25
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: Scaron
 Encoding: 166 352 171
+GlifName: S_caron
 Width: 520
 VWidth: 0
 Flags: HMW
@@ -5325,6 +5404,7 @@ EndChar
 
 StartChar: section
 Encoding: 167 167 172
+GlifName: section
 Width: 500
 VWidth: 0
 Flags: HMW
@@ -5336,6 +5416,7 @@ EndChar
 
 StartChar: scaron
 Encoding: 168 353 173
+GlifName: scaron
 Width: 410
 VWidth: 0
 Flags: HMW
@@ -5349,6 +5430,7 @@ EndChar
 
 StartChar: copyright
 Encoding: 169 169 174
+GlifName: copyright
 Width: 500
 VWidth: 0
 Flags: HMW
@@ -5360,6 +5442,7 @@ EndChar
 
 StartChar: ordfeminine
 Encoding: 170 170 175
+GlifName: ordfeminine
 Width: 500
 VWidth: 0
 Flags: HMW
@@ -5371,6 +5454,7 @@ EndChar
 
 StartChar: guillemotleft
 Encoding: 171 171 176
+GlifName: guillemotleft
 Width: 500
 VWidth: 0
 Flags: HMW
@@ -5397,6 +5481,7 @@ EndChar
 
 StartChar: logicalnot
 Encoding: 172 172 177
+GlifName: logicalnot
 Width: 540
 VWidth: 0
 Flags: MW
@@ -5419,6 +5504,7 @@ EndChar
 
 StartChar: uni00AD
 Encoding: 173 173 178
+GlifName: uni00A_D_
 Width: 320
 VWidth: 0
 Flags: MW
@@ -5430,6 +5516,7 @@ EndChar
 
 StartChar: registered
 Encoding: 174 174 179
+GlifName: registered
 Width: 500
 VWidth: 0
 Flags: HMW
@@ -5441,6 +5528,7 @@ EndChar
 
 StartChar: macron
 Encoding: 175 175 180
+GlifName: macron
 Width: 0
 VWidth: 0
 Flags: HMW
@@ -5452,6 +5540,7 @@ EndChar
 
 StartChar: plusminus
 Encoding: 177 177 181
+GlifName: plusminus
 Width: 600
 VWidth: 0
 Flags: MW
@@ -5479,6 +5568,7 @@ EndChar
 
 StartChar: uni00B2
 Encoding: 178 178 182
+GlifName: uni00B_2
 Width: 500
 VWidth: 0
 Flags: HMW
@@ -5490,6 +5580,7 @@ EndChar
 
 StartChar: uni00B3
 Encoding: 179 179 183
+GlifName: uni00B_3
 Width: 500
 VWidth: 0
 Flags: HMW
@@ -5501,6 +5592,7 @@ EndChar
 
 StartChar: Zcaron
 Encoding: 180 381 184
+GlifName: Z_caron
 Width: 570
 VWidth: 0
 Flags: HMW
@@ -5514,6 +5606,7 @@ EndChar
 
 StartChar: mu
 Encoding: 181 181 185
+GlifName: mu
 Width: 500
 VWidth: 0
 Flags: HMW
@@ -5525,6 +5618,7 @@ EndChar
 
 StartChar: paragraph
 Encoding: 182 182 186
+GlifName: paragraph
 Width: 500
 VWidth: 0
 Flags: HMW
@@ -5536,6 +5630,7 @@ EndChar
 
 StartChar: periodcentered
 Encoding: 183 183 187
+GlifName: periodcentered
 Width: 260
 VWidth: 0
 Flags: MW
@@ -5547,6 +5642,7 @@ EndChar
 
 StartChar: zcaron
 Encoding: 184 382 188
+GlifName: zcaron
 Width: 420
 VWidth: 0
 Flags: HMW
@@ -5560,6 +5656,7 @@ EndChar
 
 StartChar: uni00B9
 Encoding: 185 185 189
+GlifName: uni00B_9
 Width: 500
 VWidth: 0
 Flags: HMW
@@ -5571,6 +5668,7 @@ EndChar
 
 StartChar: ordmasculine
 Encoding: 186 186 190
+GlifName: ordmasculine
 Width: 500
 VWidth: 0
 Flags: HMW
@@ -5582,6 +5680,7 @@ EndChar
 
 StartChar: guillemotright
 Encoding: 187 187 191
+GlifName: guillemotright
 Width: 500
 VWidth: 0
 Flags: HMW
@@ -5593,6 +5692,7 @@ EndChar
 
 StartChar: OE
 Encoding: 188 338 192
+GlifName: O_E_
 Width: 900
 VWidth: 0
 Flags: HMW
@@ -5641,6 +5741,7 @@ EndChar
 
 StartChar: oe
 Encoding: 189 339 193
+GlifName: oe
 Width: 770
 VWidth: 0
 Flags: HMW
@@ -5680,6 +5781,7 @@ EndChar
 
 StartChar: Ydieresis
 Encoding: 190 376 194
+GlifName: Y_dieresis
 Width: 560
 VWidth: 0
 Flags: HMW
@@ -5692,6 +5794,7 @@ EndChar
 
 StartChar: questiondown
 Encoding: 191 191 195
+GlifName: questiondown
 Width: 460
 Flags: MW
 LayerCount: 2
@@ -5702,6 +5805,7 @@ EndChar
 
 StartChar: at
 Encoding: 64 64 196
+GlifName: at
 Width: 500
 VWidth: 0
 Flags: HMW
@@ -5713,6 +5817,7 @@ EndChar
 
 StartChar: uni00A0
 Encoding: 160 160 197
+GlifName: uni00A_0
 Width: 240
 VWidth: 0
 Flags: MW
@@ -5724,6 +5829,7 @@ EndChar
 
 StartChar: tildecomb
 Encoding: 264 771 198
+GlifName: tildecomb
 Width: 0
 VWidth: 0
 Flags: MW
@@ -5747,6 +5853,7 @@ EndChar
 
 StartChar: uni0302
 Encoding: 265 770 199
+GlifName: uni0302
 Width: 0
 VWidth: 0
 Flags: MW
@@ -5768,6 +5875,7 @@ EndChar
 
 StartChar: gravecomb
 Encoding: 266 768 200
+GlifName: gravecomb
 Width: 0
 VWidth: 0
 Flags: MW
@@ -5787,6 +5895,7 @@ EndChar
 
 StartChar: acutecomb
 Encoding: 267 769 201
+GlifName: acutecomb
 Width: 0
 VWidth: 0
 Flags: MW
@@ -5806,6 +5915,7 @@ EndChar
 
 StartChar: dotlessi
 Encoding: 268 305 202
+GlifName: dotlessi
 Width: 275
 VWidth: 0
 Flags: MW
@@ -5835,6 +5945,7 @@ EndChar
 
 StartChar: uni0308
 Encoding: 269 776 203
+GlifName: uni0308
 Width: 0
 VWidth: 0
 Flags: MW
@@ -5859,6 +5970,7 @@ EndChar
 
 StartChar: uni0304
 Encoding: 270 772 204
+GlifName: uni0304
 Width: 0
 VWidth: 0
 Flags: HMW
@@ -5878,17 +5990,29 @@ EndChar
 
 StartChar: uni0306
 Encoding: 271 774 205
-Width: 500
+GlifName: uni0306
+Width: 0
 VWidth: 0
-Flags: MW
+Flags: HMW
+AnchorPoint: "top" -240 450 mark 0
 LayerCount: 2
 Fore
+SplineSet
+-344 690 m 1
+ -334 650 -300 615 -240 615 c 3
+ -181 615 -146 650 -136 690 c 1
+ -105 680 l 1
+ -110 615 -156 550 -240 550 c 3
+ -325 550 -370 615 -375 680 c 1
+ -344 690 l 1
+EndSplineSet
 Validated: 1
 Colour: ff4c99
 EndChar
 
 StartChar: uni0307
 Encoding: 272 775 206
+GlifName: uni0307
 Width: 500
 VWidth: 0
 Flags: MW
@@ -5900,6 +6024,7 @@ EndChar
 
 StartChar: uni030A
 Encoding: 273 778 207
+GlifName: uni030A_
 Width: 0
 VWidth: 0
 Flags: HMW
@@ -5924,6 +6049,7 @@ EndChar
 
 StartChar: uni030B
 Encoding: 274 779 208
+GlifName: uni030B_
 Width: 500
 VWidth: 0
 Flags: MW
@@ -5935,6 +6061,7 @@ EndChar
 
 StartChar: uni030C
 Encoding: 275 780 209
+GlifName: uni030C_
 Width: 0
 VWidth: 0
 Flags: HMW
@@ -5948,6 +6075,7 @@ EndChar
 
 StartChar: uni030D
 Encoding: 276 781 210
+GlifName: uni030D_
 Width: 500
 VWidth: 0
 Flags: MW
@@ -5959,6 +6087,7 @@ EndChar
 
 StartChar: uni0315
 Encoding: 277 789 211
+GlifName: uni0315
 Width: 500
 VWidth: 0
 Flags: MW
@@ -5970,6 +6099,7 @@ EndChar
 
 StartChar: uni0327
 Encoding: 278 807 212
+GlifName: uni0327
 Width: 0
 VWidth: 0
 Flags: HMW
@@ -5994,6 +6124,7 @@ EndChar
 
 StartChar: amacron
 Encoding: 279 257 213
+GlifName: amacron
 Width: 465
 VWidth: 0
 Flags: HMW
@@ -6007,6 +6138,7 @@ EndChar
 
 StartChar: Amacron
 Encoding: 280 256 214
+GlifName: A_macron
 Width: 660
 VWidth: 0
 Flags: HMW
@@ -6020,18 +6152,21 @@ EndChar
 
 StartChar: abreve
 Encoding: 281 259 215
-Width: 500
+GlifName: abreve
+Width: 465
 VWidth: 0
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 105 -1 N 1 0 0 1 0 0 2
-Validated: 1
+Refer: 205 774 N 1 0 0 1 460 0 2
+Refer: 10 97 N 1 0 0 1 0 0 3
+Validated: 5
 Colour: a6c4ff
 EndChar
 
 StartChar: edotaccent
 Encoding: 282 279 216
+GlifName: edotaccent
 Width: 500
 VWidth: 0
 Flags: HMW
@@ -6044,6 +6179,7 @@ EndChar
 
 StartChar: uni0146
 Encoding: 283 326 217
+GlifName: uni0146
 Width: 500
 VWidth: 0
 Flags: HMW
@@ -6056,6 +6192,7 @@ EndChar
 
 StartChar: dcaron
 Encoding: 284 271 218
+GlifName: dcaron
 Width: 500
 VWidth: 0
 Flags: HMW
@@ -6064,6 +6201,435 @@ Fore
 Refer: 105 -1 N 1 0 0 1 0 0 2
 Validated: 1
 Colour: a6c4ff
+EndChar
+
+StartChar: Cacute
+Encoding: 285 262 219
+GlifName: C_acute
+Width: 625
+VWidth: 0
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 201 769 N 1 0 0 1 615 200 2
+Refer: 44 67 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: cacute
+Encoding: 286 263 220
+GlifName: cacute
+Width: 440
+VWidth: 0
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 201 769 N 1 0 0 1 490 0 2
+Refer: 9 99 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: Ccaron
+Encoding: 287 268 221
+GlifName: C_caron
+Width: 625
+VWidth: 0
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 209 780 N 1 0 0 1 605 200 2
+Refer: 44 67 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: ccaron
+Encoding: 288 269 222
+GlifName: ccaron
+Width: 440
+VWidth: 0
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 209 780 N 1 0 0 1 480 0 2
+Refer: 9 99 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: Emacron
+Encoding: 289 274 223
+GlifName: E_macron
+Width: 575
+VWidth: 0
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 204 772 N 1 0 0 1 525 200 2
+Refer: 39 69 N 1 0 0 1 0 0 3
+Validated: 5
+EndChar
+
+StartChar: emacron
+Encoding: 290 275 224
+GlifName: emacron
+Width: 440
+VWidth: 0
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 204 772 N 1 0 0 1 445 0 2
+Refer: 1 101 N 1 0 0 1 0 0 3
+Validated: 5
+EndChar
+
+StartChar: Imacron
+Encoding: 291 298 225
+GlifName: I_macron
+Width: 330
+VWidth: 0
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 204 772 N 1 0 0 1 380 200 2
+Refer: 19 73 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: imacron
+Encoding: 292 299 226
+GlifName: imacron
+Width: 275
+VWidth: 0
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 204 772 N 1 0 0 1 350 0 2
+Refer: 202 305 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: Omacron
+Encoding: 293 332 227
+GlifName: O_macron
+Width: 710
+VWidth: 0
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 204 772 N 1 0 0 1 565 200 2
+Refer: 35 79 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: omacron
+Encoding: 294 333 228
+GlifName: omacron
+Width: 510
+VWidth: 0
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 204 772 N 1 0 0 1 465 0 2
+Refer: 2 111 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: Sacute
+Encoding: 295 346 229
+GlifName: S_acute
+Width: 520
+VWidth: 0
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 201 769 N 1 0 0 1 520 200 2
+Refer: 53 83 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: sacute
+Encoding: 296 347 230
+GlifName: sacute
+Width: 410
+VWidth: 0
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 201 769 N 1 0 0 1 460 0 2
+Refer: 15 115 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: Scedilla
+Encoding: 297 350 231
+GlifName: S_cedilla
+Width: 520
+VWidth: 0
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 212 807 N 1 0 0 1 415 0 2
+Refer: 53 83 N 1 0 0 1 0 0 3
+Validated: 5
+EndChar
+
+StartChar: scedilla
+Encoding: 298 351 232
+GlifName: scedilla
+Width: 410
+VWidth: 0
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 212 807 N 1 0 0 1 375 0 2
+Refer: 15 115 N 1 0 0 1 0 0 3
+Validated: 5
+EndChar
+
+StartChar: Umacron
+Encoding: 299 362 233
+GlifName: U_macron
+Width: 690
+VWidth: 0
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 204 772 N 1 0 0 1 575 200 2
+Refer: 37 85 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: umacron
+Encoding: 300 363 234
+GlifName: umacron
+Width: 545
+VWidth: 0
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 204 772 N 1 0 0 1 475 0 2
+Refer: 20 117 N 1 0 0 1 0 0 3
+Validated: 5
+EndChar
+
+StartChar: Abreve
+Encoding: 301 258 235
+GlifName: A_breve
+Width: 660
+VWidth: 0
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 205 774 N 1 0 0 1 565 180 2
+Refer: 40 65 N 1 0 0 1 0 0 3
+Validated: 5
+EndChar
+
+StartChar: Ebreve
+Encoding: 302 276 236
+GlifName: E_breve
+Width: 575
+VWidth: 0
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 205 774 N 1 0 0 1 550 200 2
+Refer: 39 69 N 1 0 0 1 0 0 3
+Validated: 5
+EndChar
+
+StartChar: ebreve
+Encoding: 303 277 237
+GlifName: ebreve
+Width: 440
+VWidth: 0
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 205 774 N 1 0 0 1 470 0 2
+Refer: 1 101 N 1 0 0 1 0 0 3
+Validated: 5
+EndChar
+
+StartChar: Gbreve
+Encoding: 304 286 238
+GlifName: G_breve
+Width: 700
+VWidth: 0
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 205 774 N 1 0 0 1 605 200 2
+Refer: 46 71 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: gbreve
+Encoding: 305 287 239
+GlifName: gbreve
+Width: 520
+VWidth: 0
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 205 774 N 1 0 0 1 510 0 2
+Refer: 16 103 N 1 0 0 1 0 0 3
+Validated: 5
+EndChar
+
+StartChar: Ibreve
+Encoding: 306 300 240
+GlifName: I_breve
+Width: 330
+VWidth: 0
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 205 774 N 1 0 0 1 405 200 2
+Refer: 19 73 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: ibreve
+Encoding: 307 301 241
+GlifName: ibreve
+Width: 275
+VWidth: 0
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 205 774 N 1 0 0 1 375 0 2
+Refer: 202 305 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: Obreve
+Encoding: 308 334 242
+GlifName: O_breve
+Width: 710
+VWidth: 0
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 205 774 N 1 0 0 1 590 200 2
+Refer: 35 79 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: obreve
+Encoding: 309 335 243
+GlifName: obreve
+Width: 510
+VWidth: 0
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 205 774 N 1 0 0 1 490 0 2
+Refer: 2 111 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: Ubreve
+Encoding: 310 364 244
+GlifName: U_breve
+Width: 690
+VWidth: 0
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 205 774 N 1 0 0 1 600 200 2
+Refer: 37 85 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: ubreve
+Encoding: 311 365 245
+GlifName: ubreve
+Width: 545
+VWidth: 0
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 205 774 N 1 0 0 1 500 0 2
+Refer: 20 117 N 1 0 0 1 0 0 3
+Validated: 5
+EndChar
+
+StartChar: Zacute
+Encoding: 312 377 246
+GlifName: Z_acute
+Width: 570
+VWidth: 0
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 201 769 N 1 0 0 1 530 200 2
+Refer: 57 90 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: zacute
+Encoding: 313 378 247
+GlifName: zacute
+Width: 420
+VWidth: 0
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 201 769 N 1 0 0 1 460 0 2
+Refer: 27 122 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: Nacute
+Encoding: 314 323 248
+GlifName: N_acute
+Width: 680
+VWidth: 0
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 201 769 N 1 0 0 1 595 200 2
+Refer: 50 78 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: nacute
+Encoding: 315 324 249
+GlifName: nacute
+Width: 575
+VWidth: 0
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 201 769 N 1 0 0 1 535 0 2
+Refer: 0 110 N 1 0 0 1 0 0 3
+Validated: 5
+EndChar
+
+StartChar: Racute
+Encoding: 316 340 250
+GlifName: R_acute
+Width: 600
+VWidth: 0
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 201 769 N 1 0 0 1 540 200 2
+Refer: 52 82 N 1 0 0 1 0 0 3
+Validated: 1
+EndChar
+
+StartChar: racute
+Encoding: 317 341 251
+GlifName: racute
+Width: 385
+VWidth: 0
+Flags: HM
+LayerCount: 2
+Fore
+Refer: 201 769 N 1 0 0 1 470 0 2
+Refer: 14 114 N 1 0 0 1 0 0 3
+Validated: 5
 EndChar
 EndChars
 EndSplineFont

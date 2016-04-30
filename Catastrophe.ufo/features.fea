@@ -9,7 +9,7 @@ lookup markMarkPositioninginLatinlookup0 {
   lookupflag 0;
   markClass [\uni0327 ] <anchor -165 0> @bottom;
   markClass [\tildecomb ] <anchor -290 450> @top;
-  markClass [\uni0302 \uni030C ] <anchor -240 450> @top;
+  markClass [\uni0302 \uni0306 \uni030C ] <anchor -240 450> @top;
   markClass [\gravecomb ] <anchor -205 450> @top;
   markClass [\acutecomb ] <anchor -250 450> @top;
   markClass [\uni0308 ] <anchor -195 450> @top;
@@ -25,8 +25,12 @@ lookup markMarkPositioninginLatinlookup0 {
 	<anchor 240 0> mark @bottom;
   pos base [\a \ae ] <anchor 220 450> mark @top
 	<anchor 225 0> mark @bottom;
+  pos base [\r ] <anchor 175 0> mark @bottom
+	<anchor 220 450> mark @top;
   pos base [\s ] <anchor 210 0> mark @bottom
 	<anchor 210 450> mark @top;
+  pos base [\g ] <anchor 250 -210> mark @bottom
+	<anchor 270 450> mark @top;
   pos base [\y ] <anchor 220 -210> mark @bottom
 	<anchor 240 450> mark @top;
   pos base [\I ] <anchor 165 0> mark @bottom
@@ -43,10 +47,12 @@ lookup markMarkPositioninginLatinlookup0 {
 	<anchor 310 650> mark @top;
   pos base [\A ] <anchor 320 0> mark @bottom
 	<anchor 325 630> mark @top;
-  pos base [\C ] <anchor 365 650> mark @top
+  pos base [\C \G ] <anchor 365 650> mark @top
 	<anchor 365 0> mark @bottom;
   pos base [\N ] <anchor 355 0> mark @bottom
 	<anchor 345 650> mark @top;
+  pos base [\R ] <anchor 290 650> mark @top
+	<anchor 330 0> mark @bottom;
   pos base [\S ] <anchor 250 0> mark @bottom
 	<anchor 270 650> mark @top;
   pos base [\Z ] <anchor 280 650> mark @top
@@ -90,10 +96,13 @@ feature mark {
 	\copyright \ordfeminine \guillemotleft \logicalnot \uni00AD \registered 
 	\macron \plusminus \uni00B2 \uni00B3 \Zcaron \mu \paragraph \periodcentered 
 	\zcaron \uni00B9 \ordmasculine \guillemotright \OE \oe \Ydieresis \questiondown 
-	\at \uni00A0 \dotlessi \uni0306 \uni0307 \uni030B \uni030D \uni0315 \amacron 
-	\Amacron \abreve \edotaccent \uni0146 \dcaron ];
-@GDEF_Mark = [\tildecomb \uni0302 \gravecomb \acutecomb \uni0308 \uni0304 \uni030A 
-	\uni030C \uni0327 ];
+	\at \uni00A0 \dotlessi \uni0307 \uni030B \uni030D \uni0315 \amacron \Amacron 
+	\abreve \edotaccent \uni0146 \dcaron \Cacute \cacute \Ccaron \ccaron \Emacron 
+	\emacron \Imacron \imacron \Omacron \omacron \Sacute \sacute \Scedilla \scedilla 
+	\Umacron \umacron \Abreve \Ebreve \ebreve \Gbreve \gbreve \Ibreve \ibreve \Obreve 
+	\obreve \Ubreve \ubreve \Zacute \zacute \Nacute \nacute \Racute \racute ];
+@GDEF_Mark = [\tildecomb \uni0302 \gravecomb \acutecomb \uni0308 \uni0304 \uni0306 
+	\uni030A \uni030C \uni0327 ];
 
 table GDEF {
   GlyphClassDef @GDEF_Simple, , @GDEF_Mark, ;
