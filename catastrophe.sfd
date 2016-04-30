@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1459445766
-ModificationTime: 1462030398
+ModificationTime: 1462050134
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -43,6 +43,7 @@ HheadAOffset: 1
 HheadDescent: 0
 HheadDOffset: 1
 OS2Vendor: 'PfEd'
+Lookup: 4 0 1 "'liga' Standard Ligatures lookup 0" { "'liga' Standard Ligatures lookup 0-1"  } ['liga' ('DFLT' <'dflt' > 'grek' <'dflt' > 'latn' <'dflt' > ) ]
 Lookup: 260 0 0 "'mark' Mark Positioning in Latin lookup 0" { "'mark' Mark Positioning in Latin lookup 0-1"  } ['mark' ('DFLT' <'dflt' > 'latn' <'dflt' > ) ]
 MarkAttachClasses: 1
 DEI: 91125
@@ -5396,7 +5397,7 @@ LayerCount: 2
 Fore
 Refer: 209 780 N 1 0 0 1 510 200 2
 Refer: 53 83 N 1 0 0 1 0 0 3
-Colour: a6c4ff
+Colour: d1b0ff
 EndChar
 
 StartChar: section
@@ -5421,7 +5422,7 @@ LayerCount: 2
 Fore
 Refer: 209 780 N 1 0 0 1 450 0 2
 Refer: 15 115 N 1 0 0 1 0 0 3
-Colour: a6c4ff
+Colour: d1b0ff
 EndChar
 
 StartChar: copyright
@@ -6335,6 +6336,7 @@ LayerCount: 2
 Fore
 Refer: 201 769 N 1 0 0 1 520 200 2
 Refer: 53 83 N 1 0 0 1 0 0 3
+Colour: d1b0ff
 EndChar
 
 StartChar: sacute
@@ -6347,6 +6349,7 @@ LayerCount: 2
 Fore
 Refer: 201 769 N 1 0 0 1 460 0 2
 Refer: 15 115 N 1 0 0 1 0 0 3
+Colour: d1b0ff
 EndChar
 
 StartChar: Scedilla
@@ -6359,6 +6362,7 @@ LayerCount: 2
 Fore
 Refer: 212 807 N 1 0 0 1 415 0 2
 Refer: 53 83 N 1 0 0 1 0 0 3
+Colour: d1b0ff
 EndChar
 
 StartChar: scedilla
@@ -6371,6 +6375,7 @@ LayerCount: 2
 Fore
 Refer: 212 807 N 1 0 0 1 375 0 2
 Refer: 15 115 N 1 0 0 1 0 0 3
+Colour: d1b0ff
 EndChar
 
 StartChar: Umacron
@@ -6383,6 +6388,7 @@ LayerCount: 2
 Fore
 Refer: 204 772 N 1 0 0 1 575 200 2
 Refer: 37 85 N 1 0 0 1 0 0 3
+Colour: d1b0ff
 EndChar
 
 StartChar: umacron
@@ -6395,6 +6401,7 @@ LayerCount: 2
 Fore
 Refer: 204 772 N 1 0 0 1 475 0 2
 Refer: 20 117 N 1 0 0 1 0 0 3
+Colour: d1b0ff
 EndChar
 
 StartChar: Abreve
@@ -6966,6 +6973,7 @@ LayerCount: 2
 Fore
 Refer: 209 780 N 1 0 0 1 460 0 2
 Refer: 14 114 N 1 0 0 1 0 0 3
+Colour: d1b0ff
 EndChar
 
 StartChar: uni0162
@@ -6976,6 +6984,7 @@ Flags: HMW
 LayerCount: 2
 Fore
 Refer: 105 -1 N 1 0 0 1 0 0 2
+Colour: d1b0ff
 EndChar
 
 StartChar: uni0163
@@ -6986,6 +6995,7 @@ Flags: HMW
 LayerCount: 2
 Fore
 Refer: 105 -1 N 1 0 0 1 0 0 2
+Colour: d1b0ff
 EndChar
 
 StartChar: Tcaron
@@ -6997,6 +7007,7 @@ LayerCount: 2
 Fore
 Refer: 209 780 N 1 0 0 1 520 190 2
 Refer: 54 84 N 1 0 0 1 0 0 3
+Colour: d1b0ff
 EndChar
 
 StartChar: tcaron
@@ -7007,6 +7018,7 @@ Flags: HMW
 LayerCount: 2
 Fore
 Refer: 105 -1 N 1 0 0 1 0 0 2
+Colour: d1b0ff
 EndChar
 
 StartChar: Uring
@@ -7899,52 +7911,94 @@ EndChar
 
 StartChar: uniFB00
 Encoding: 64256 64256 370
-Width: 500
+Width: 660
 VWidth: 0
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 105 -1 N 1 0 0 1 0 0 2
+Refer: 12 102 N 1 0 0 1 330 0 2
+Refer: 12 102 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 EndChar
 
 StartChar: uniFB01
 Encoding: 64257 64257 371
-Width: 500
+Width: 605
 VWidth: 0
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 105 -1 N 1 0 0 1 0 0 2
+Refer: 5 105 N 1 0 0 1 330 0 2
+Refer: 12 102 N 1 0 0 1 0 0 2
+LCarets2: 1 0
 EndChar
 
 StartChar: uniFB02
 Encoding: 64258 64258 372
-Width: 500
+Width: 580
 VWidth: 0
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 105 -1 N 1 0 0 1 0 0 2
+SplineSet
+50 450 m 1
+ 180 450 l 1
+ 300 450 l 1
+ 300 400 l 1
+ 10 400 l 1
+ 10 415 l 1
+ 50 450 l 1
+405 595 m 17
+ 365 615 325 625 265 625 c 3
+ 200 625 177 588 177 556 c 3
+ 177 521 180 493 180 450 c 0
+ 180 115 l 1
+ 195 45 l 25
+ 255 20 l 25
+ 255 0 l 25
+ 20 0 l 25
+ 20 20 l 25
+ 80 45 l 25
+ 95 115 l 1
+ 95 450 l 3
+ 95 565 165 690 325 690 c 3
+ 405 690 450 675 500 650 c 1
+ 490 560 l 1
+ 490 115 l 1
+ 505 45 l 25
+ 565 20 l 25
+ 565 0 l 25
+ 330 0 l 25
+ 330 20 l 25
+ 390 45 l 25
+ 405 115 l 1
+ 405 595 l 17
+EndSplineSet
+LCarets2: 1 0
+Ligature2: "'liga' Standard Ligatures lookup 0-1" f l
 EndChar
 
 StartChar: uniFB03
 Encoding: 64259 64259 373
-Width: 500
+Width: 935
 VWidth: 0
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 105 -1 N 1 0 0 1 0 0 2
+Refer: 5 105 N 1 0 0 1 660 0 2
+Refer: 12 102 N 1 0 0 1 330 0 2
+Refer: 12 102 N 1 0 0 1 0 0 2
 EndChar
 
 StartChar: uniFB04
 Encoding: 64260 64260 374
-Width: 500
+Width: 910
 VWidth: 0
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 105 -1 N 1 0 0 1 0 0 2
+Refer: 372 64258 N 1 0 0 1 330 0 2
+Refer: 12 102 N 1 0 0 1 0 0 2
 EndChar
 EndChars
 EndSplineFont
