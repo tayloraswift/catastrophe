@@ -35,7 +35,7 @@ lookup markMarkPositioninginLatinlookup0 {
 	<anchor 210 450> mark @top;
   pos base [\Y ] <anchor 280 0> mark @bottom
 	<anchor 285 650> mark @top;
-  pos base [\O ] <anchor 350 650> mark @top
+  pos base [\O \OE ] <anchor 350 650> mark @top
 	<anchor 360 0> mark @bottom;
   pos base [\U ] <anchor 360 650> mark @top
 	<anchor 360 0> mark @bottom;
@@ -53,6 +53,8 @@ lookup markMarkPositioninginLatinlookup0 {
 	<anchor 280 0> mark @bottom;
   pos base [\AE ] <anchor 445 0> mark @bottom
 	<anchor 515 650> mark @top;
+  pos base [\oe ] <anchor 415 450> mark @top
+	<anchor 411 0> mark @bottom;
   pos base [\dotlessi ] <anchor 142 0> mark @bottom
 	<anchor 135 450> mark @top;
 } markMarkPositioninginLatinlookup0;

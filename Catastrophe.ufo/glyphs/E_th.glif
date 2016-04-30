@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="Eth" format="1">
-  <advance width="500"/>
+  <advance width="680"/>
   <unicode hex="00D0"/>
   <outline>
-    <component base=".notdef"/>
+    <contour>
+      <point x="59" y="350" type="line"/>
+      <point x="330" y="350" type="line"/>
+      <point x="330" y="300" type="line"/>
+      <point x="20" y="300" type="line"/>
+      <point x="20" y="315" type="line"/>
+    </contour>
+    <component base="D"/>
   </outline>
 </glyph>
