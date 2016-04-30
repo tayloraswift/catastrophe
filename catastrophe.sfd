@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1459445766
-ModificationTime: 1461959351
+ModificationTime: 1461981882
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -53,7 +53,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 140 14 7
+WinInfo: 168 14 7
 BeginPrivate: 1
 BlueValues 31 [-10 0 450 460 650 660 680 680]
 EndPrivate
@@ -4747,7 +4747,7 @@ EndChar
 
 StartChar: ae
 Encoding: 230 230 142
-Width: 665
+Width: 675
 VWidth: 0
 Flags: HMW
 AnchorPoint: "top" 220 450 basechar 0
@@ -4764,29 +4764,28 @@ SplineSet
  325 96 282 -10 162 -10 c 3
  79 -10 35 36 35 105 c 3
  35 190 97 253 290 263 c 9
-467 460 m 3
- 576 460 625 394 625 282 c 1
- 623 253 l 1
+477 460 m 3
+ 586 460 635 394 635 282 c 1
+ 633 253 l 1
  369 233 l 1
  369 268 l 1
- 472 278 l 1
- 532 293 l 1
- 532 369 518 417 460 417 c 3
- 395 417 375 343 375 279 c 3
- 375 129 412 54 506 54 c 3
- 544 54 588 65 616 91 c 1
- 630 78 l 1
- 591 21 549 -10 473 -10 c 3
- 336 -10 290 83 290 220 c 2
+ 477 278 l 1
+ 542 293 l 1
+ 542 369 523 417 465 417 c 3
+ 400 417 375 343 375 279 c 3
+ 375 129 417 54 511 54 c 3
+ 549 54 598 65 626 91 c 1
+ 640 78 l 1
+ 601 21 554 -10 478 -10 c 3
+ 341 -10 290 83 290 220 c 2
  290 275 l 2
  290 358 255 392 190 392 c 3
  137 392 106 371 77 343 c 1
  61 356 l 1
  83 407 135 460 220 460 c 3
  282 460 330 435 345 385 c 1
- 370 425 407 460 467 460 c 3
+ 370 425 417 460 477 460 c 3
 EndSplineSet
-Validated: 5
 EndChar
 
 StartChar: ccedilla
@@ -5480,24 +5479,87 @@ EndChar
 
 StartChar: OE
 Encoding: 188 338 192
-Width: 500
+Width: 900
 VWidth: 0
 Flags: HMW
+AnchorPoint: "top" 350 650 basechar 0
+AnchorPoint: "bottom" 500 0 basechar 0
 LayerCount: 2
 Fore
-Refer: 105 -1 N 1 0 0 1 0 0 2
-Validated: 1
+SplineSet
+535 350 m 1
+ 610 350 l 1
+ 690 360 l 1
+ 705 440 l 1
+ 737 440 l 1
+ 737 220 l 1
+ 705 220 l 1
+ 690 300 l 1
+ 610 310 l 25
+ 535 310 l 1
+ 535 350 l 1
+345 610 m 27
+ 215 610 150 497 150 332 c 3
+ 150 152 225 40 375 40 c 11
+ 445 40 l 1
+ 445 610 l 1
+ 345 610 l 27
+350 650 m 19
+ 828 650 l 9
+ 835 506 l 1
+ 795 502 l 1
+ 772 595 l 1
+ 692 610 l 25
+ 535 610 l 1
+ 535 55 l 1
+ 615 40 l 1
+ 712 40 l 1
+ 792 55 l 1
+ 817 148 l 1
+ 858 143 l 1
+ 848 0 l 25
+ 360 0 l 3
+ 150 0 45 120 45 320 c 3
+ 45 520 175 650 350 650 c 19
+EndSplineSet
 EndChar
 
 StartChar: oe
 Encoding: 189 339 193
-Width: 500
+Width: 770
 VWidth: 0
 Flags: HMW
+AnchorPoint: "top" 415 450 basechar 0
+AnchorPoint: "bottom" 411 0 basechar 0
 LayerCount: 2
 Fore
-Refer: 105 -1 N 1 0 0 1 0 0 2
-Validated: 1
+SplineSet
+562 460 m 7
+ 676 460 730 389 730 287 c 1
+ 728 258 l 1
+ 464 258 l 1
+ 464 293 l 1
+ 567 293 l 1
+ 637 303 l 1
+ 637 374 623 417 555 417 c 3
+ 486 417 465 343 465 279 c 3
+ 465 129 507 54 601 54 c 3
+ 639 54 693 65 721 91 c 1
+ 735 78 l 1
+ 696 21 644 -10 568 -10 c 7
+ 441 -10 380 83 380 220 c 3
+ 380 357 440 460 562 460 c 7
+240 415 m 3
+ 166 415 135 343 135 232 c 3
+ 135 111 173 35 260 35 c 3
+ 334 35 365 109 365 220 c 3
+ 365 341 327 415 240 415 c 3
+253 -10 m 3
+ 110 -10 35 83 35 220 c 3
+ 35 357 120 460 247 460 c 3
+ 390 460 460 367 460 230 c 3
+ 460 93 380 -10 253 -10 c 3
+EndSplineSet
 EndChar
 
 StartChar: Ydieresis
