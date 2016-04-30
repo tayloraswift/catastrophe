@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1459445766
-ModificationTime: 1462057581
+ModificationTime: 1462058483
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -55,7 +55,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 133 19 9
+WinInfo: 209 19 9
 BeginPrivate: 1
 BlueValues 31 [-10 0 450 460 650 660 680 680]
 EndPrivate
@@ -399,20 +399,20 @@ AnchorPoint: "bottom" 225 0 basechar 0
 LayerCount: 2
 Fore
 SplineSet
-220 460 m 3
- 325 460 375 420 375 290 c 2
- 375 130 l 17
- 390 60 l 1
- 455 45 l 25
- 455 25 l 1
- 287 -10 l 25
- 295 85 l 1
- 290 160 l 9
- 290 275 l 2
- 290 358 255 392 190 392 c 3
- 137 392 106 371 77 343 c 1
- 61 356 l 1
- 83 407 135 460 220 460 c 3
+220 460 m 7
+ 325 460 375 420 375 290 c 6
+ 375 130 l 21
+ 390 60 l 5
+ 455 45 l 29
+ 455 25 l 5
+ 287 -10 l 29
+ 295 85 l 5
+ 290 160 l 13
+ 290 275 l 6
+ 290 358 255 392 190 392 c 7
+ 137 392 106 371 77 343 c 5
+ 61 356 l 5
+ 83 407 135 460 220 460 c 7
 290 248 m 9
  290 213 l 17
  155 213 130 185 130 127 c 3
@@ -6705,13 +6705,46 @@ EndChar
 
 StartChar: aogonek
 Encoding: 195 261 252
-Width: 500
+Width: 465
 VWidth: 0
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 105 -1 N 1 0 0 1 0 0 2
-Validated: 1
+SplineSet
+220 460 m 3
+ 325 460 375 420 375 290 c 2
+ 375 130 l 17
+ 390 60 l 1
+ 455 45 l 25
+ 455 25 l 1
+ 287 -10 l 25
+ 295 85 l 1
+ 290 160 l 9
+ 290 275 l 2
+ 290 358 255 392 190 392 c 3
+ 137 392 106 371 77 343 c 1
+ 61 356 l 1
+ 83 407 135 460 220 460 c 3
+325 -160 m 3
+ 350 -160 377 -155 392 -150 c 1
+ 400 -165 l 1
+ 375 -190 330 -220 275 -220 c 3
+ 210 -220 175 -190 175 -135 c 3
+ 175 -85 237 -35 287 -10 c 5
+ 455 25 l 1
+ 335 -5 255 -50 255 -105 c 3
+ 255 -140 280 -160 325 -160 c 3
+290 248 m 9
+ 290 213 l 17
+ 155 213 130 185 130 127 c 3
+ 130 79 153 54 197 54 c 3
+ 237 54 290 83 290 160 c 1
+ 295 85 l 1
+ 275 36 227 -10 162 -10 c 3
+ 79 -10 35 36 35 105 c 3
+ 35 190 97 248 290 248 c 9
+EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: Dcaron
@@ -6782,11 +6815,11 @@ LayerCount: 2
 Fore
 SplineSet
 310 -160 m 3
- 335 -160 362 -155 382 -145 c 1
- 390 -160 l 1
- 365 -190 315 -220 260 -220 c 3
- 195 -220 160 -180 160 -125 c 3
- 160 -80 203 -30 238 -10 c 9
+ 335 -160 362 -155 377 -150 c 1
+ 385 -165 l 1
+ 360 -195 315 -220 260 -220 c 3
+ 195 -220 160 -190 160 -135 c 3
+ 160 -90 203 -30 238 -10 c 9
  400 65 l 17
  320 10 240 -20 240 -95 c 3
  240 -135 265 -160 310 -160 c 3
@@ -6873,13 +6906,42 @@ EndChar
 
 StartChar: iogonek
 Encoding: 219 303 264
-Width: 500
+Width: 275
 VWidth: 0
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 105 -1 N 1 0 0 1 0 0 2
-Validated: 1
+SplineSet
+175 -160 m 3
+ 200 -160 227 -155 242 -150 c 1
+ 250 -165 l 1
+ 225 -190 180 -220 125 -220 c 3
+ 60 -220 25 -190 25 -135 c 3
+ 25 -85 70 -40 120 -15 c 1
+ 260 0 l 1
+ 160 -20 105 -50 105 -105 c 3
+ 105 -140 130 -160 175 -160 c 3
+120 -15 m 25
+ 85 30 l 1
+ 100 115 l 25
+ 100 330 l 25
+ 85 400 l 1
+ 30 425 l 25
+ 30 445 l 1
+ 195 455 l 25
+ 185 335 l 1
+ 185 115 l 1
+ 200 45 l 25
+ 260 20 l 25
+ 260 0 l 1
+ 120 -15 l 25
+70 620 m 3
+ 70 655 95 680 130 680 c 3
+ 165 680 190 655 190 620 c 3
+ 190 585 165 560 130 560 c 3
+ 95 560 70 585 70 620 c 3
+EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: Idotaccent
@@ -7273,13 +7335,24 @@ EndChar
 
 StartChar: uogonek
 Encoding: 267 371 294
-Width: 500
+Width: 545
 VWidth: 0
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 105 -1 N 1 0 0 1 0 0 2
-Validated: 1
+SplineSet
+400 -160 m 3
+ 425 -160 452 -155 467 -150 c 1
+ 475 -165 l 1
+ 450 -190 405 -220 350 -220 c 3
+ 285 -220 250 -190 250 -135 c 3
+ 250 -85 312 -35 362 -10 c 1
+ 530 25 l 1
+ 410 -5 330 -50 330 -105 c 3
+ 330 -140 355 -160 400 -160 c 3
+EndSplineSet
+Refer: 20 117 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: Zdotaccent
@@ -7474,7 +7547,7 @@ VWidth: 0
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 105 -1 N 1 0 0 1 0 0 2
+Refer: 105 -1 S 1 0 0 1 0 0 2
 Validated: 1
 Colour: ff54eb
 EndChar
@@ -7524,13 +7597,23 @@ EndChar
 
 StartChar: ogonekcomb
 Encoding: 305 808 314
-Width: 500
+Width: 0
 VWidth: 0
 Flags: HMW
+AnchorPoint: "bottom" -165 0 mark 0
 LayerCount: 2
 Fore
-Refer: 105 -1 N 1 0 0 1 0 0 2
-Validated: 1
+SplineSet
+-130 -160 m 3
+ -105 -160 -78 -155 -63 -150 c 1
+ -55 -165 l 1
+ -80 -195 -125 -220 -180 -220 c 3
+ -245 -220 -280 -190 -280 -135 c 3
+ -280 -90 -230 -20 -155 20 c 1
+ -140 0 l 1
+ -160 -15 -200 -50 -200 -95 c 3
+ -200 -135 -175 -160 -130 -160 c 3
+EndSplineSet
 Colour: ff4c99
 EndChar
 
