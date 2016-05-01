@@ -3,6 +3,12 @@
   <advance width="500"/>
   <unicode hex="2264"/>
   <outline>
-    <component base=".notdef"/>
+    <contour>
+      <point x="100" y="50" type="line"/>
+      <point x="400" y="50" type="line"/>
+      <point x="400" y="0" type="line"/>
+      <point x="100" y="0" type="line"/>
+    </contour>
+    <component base="less" yOffset="95"/>
   </outline>
 </glyph>

@@ -762,5 +762,9 @@
     <string>sacute.plk.glif</string>
     <key>zacute.plk</key>
     <string>zacute.plk.glif</string>
+    <key>longs</key>
+    <string>longs.glif</string>
+    <key>asciitilde</key>
+    <string>asciitilde.glif</string>
   </dict>
 </plist>

@@ -169,7 +169,7 @@ feature mark {
 	\partialdiff \Delta \product \summation \uni2215 \uni2219 \radical \infinity 
 	\integral \approxequal \notequal \lessequal \greaterequal \lozenge \uni25CC 
 	\circle \uniFB00 \fi \uniFB03 \uniFB04 \cacute.plk \nacute.plk \oacute.plk 
-	\sacute.plk \zacute.plk ];
+	\sacute.plk \zacute.plk \longs \asciitilde ];
 @GDEF_Ligature = [\fl ];
 @GDEF_Mark = [\tildecomb \circumflexcomb \gravecomb \acutecomb \diaeresiscomb 
 	\macroncomb \brevecomb \dotcomb \ringcomb \doubleacutecomb \caroncomb 
