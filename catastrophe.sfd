@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1459445766
-ModificationTime: 1462115756
+ModificationTime: 1462115982
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -56,7 +56,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 76 19 9
+WinInfo: 0 19 9
 BeginPrivate: 1
 BlueValues 31 [-10 0 450 460 650 660 680 680]
 EndPrivate
@@ -158,6 +158,7 @@ SplineSet
  101 -10 35 83 35 220 c 7
  35 357 105 460 232 460 c 7
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: o
@@ -195,6 +196,7 @@ SplineSet
  402 460 475 365 475 230 c 3
  475 95 393 -10 258 -10 c 3
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: p
@@ -397,6 +399,7 @@ SplineSet
  340 305 l 1
  320 400 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: a
@@ -1586,6 +1589,7 @@ SplineSet
  565 660 665 530 665 330 c 3
  665 130 550 -10 360 -10 c 3
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: D
@@ -1704,6 +1708,7 @@ SplineSet
  425 28 l 1
 EndSplineSet
 Refer: 35 79 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: E
@@ -3730,60 +3735,59 @@ Flags: HMW
 LayerCount: 2
 Back
 SplineSet
-330 667 m 5
- 390 632 l 5
- 276 484 l 5
- 259 494 l 5
- 330 667 l 5
-460 511 m 5
- 460 441 l 5
- 275 466 l 5
- 275 486 l 5
- 460 511 l 5
-390 320 m 5
- 330 285 l 5
- 259 458 l 5
- 276 468 l 5
- 390 320 l 5
-190 285 m 5
- 130 320 l 5
- 244 468 l 5
- 261 458 l 5
- 190 285 l 5
-130 632 m 5
- 190 667 l 5
- 261 494 l 5
- 244 484 l 5
- 130 632 l 5
-60 441 m 5
- 60 511 l 5
- 245 486 l 5
- 245 466 l 5
- 60 441 l 5
+395 322 m 5
+ 325 282 l 5
+ 255 455 l 5
+ 280 470 l 5
+ 395 322 l 5
+125 628 m 5
+ 195 668 l 5
+ 265 495 l 5
+ 240 480 l 5
+ 125 628 l 5
+325 668 m 5
+ 395 628 l 5
+ 280 480 l 5
+ 255 495 l 5
+ 325 668 l 5
+195 282 m 5
+ 125 322 l 5
+ 240 470 l 5
+ 265 455 l 5
+ 195 282 l 5
+460 515 m 5
+ 460 435 l 5
+ 275 460 l 5
+ 275 490 l 5
+ 460 515 l 5
+60 435 m 5
+ 60 515 l 5
+ 245 490 l 5
+ 245 460 l 5
+ 60 435 l 5
 EndSplineSet
 Fore
 SplineSet
-60 441 m 1
- 60 511 l 1
- 242 486 l 1
- 130 632 l 1
- 190 667 l 1
- 260 496 l 1
- 330 667 l 1
- 390 632 l 1
- 278 486 l 1
- 460 511 l 1
- 460 441 l 1
- 278 466 l 1
- 390 320 l 1
- 330 285 l 1
- 260 456 l 1
- 190 285 l 1
- 130 320 l 1
- 242 466 l 1
- 60 441 l 1
+60 435 m 1
+ 60 515 l 1
+ 231 492 l 1
+ 125 628 l 1
+ 195 668 l 1
+ 260 507 l 1
+ 325 668 l 1
+ 395 628 l 1
+ 289 492 l 1
+ 460 515 l 1
+ 460 435 l 1
+ 289 458 l 1
+ 395 322 l 1
+ 325 282 l 1
+ 260 443 l 1
+ 195 282 l 1
+ 125 322 l 1
+ 231 458 l 1
+ 60 435 l 1
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: bracketleft
@@ -3916,6 +3920,7 @@ LayerCount: 2
 Fore
 Refer: 200 768 N 1 0 0 1 435 0 2
 Refer: 1 101 N 1 0 0 1 0 0 3
+Validated: 5
 Colour: d1b0ff
 EndChar
 
@@ -4492,6 +4497,7 @@ LayerCount: 2
 Fore
 Refer: 200 768 N 1 0 0 1 555 200 2
 Refer: 35 79 N 1 0 0 1 0 0 3
+Validated: 1
 Colour: d1b0ff
 EndChar
 
@@ -4505,6 +4511,7 @@ LayerCount: 2
 Fore
 Refer: 201 769 N 1 0 0 1 600 200 2
 Refer: 35 79 N 1 0 0 1 0 0 3
+Validated: 1
 Colour: d1b0ff
 EndChar
 
@@ -4518,6 +4525,7 @@ LayerCount: 2
 Fore
 Refer: 199 770 N 1 0 0 1 590 200 2
 Refer: 35 79 N 1 0 0 1 0 0 3
+Validated: 1
 Colour: d1b0ff
 EndChar
 
@@ -4531,6 +4539,7 @@ LayerCount: 2
 Fore
 Refer: 198 771 N 1 0 0 1 640 200 2
 Refer: 35 79 N 1 0 0 1 0 0 3
+Validated: 1
 Colour: d1b0ff
 EndChar
 
@@ -4544,6 +4553,7 @@ LayerCount: 2
 Fore
 Refer: 203 776 N 1 0 0 1 545 200 2
 Refer: 35 79 N 1 0 0 1 0 0 3
+Validated: 1
 Colour: d1b0ff
 EndChar
 
@@ -4563,6 +4573,7 @@ SplineSet
  566 725 l 1
 EndSplineSet
 Refer: 35 79 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: Ugrave
@@ -4868,6 +4879,7 @@ LayerCount: 2
 Fore
 Refer: 211 807 N 1 0 0 1 405 0 2
 Refer: 9 99 N 1 0 0 1 0 0 3
+Validated: 5
 Colour: d1b0ff
 EndChar
 
@@ -4881,6 +4893,7 @@ LayerCount: 2
 Fore
 Refer: 201 769 N 1 0 0 1 480 0 2
 Refer: 1 101 N 1 0 0 1 0 0 3
+Validated: 5
 Colour: d1b0ff
 EndChar
 
@@ -4894,6 +4907,7 @@ LayerCount: 2
 Fore
 Refer: 199 770 N 1 0 0 1 470 0 2
 Refer: 1 101 N 1 0 0 1 0 0 3
+Validated: 5
 Colour: d1b0ff
 EndChar
 
@@ -4907,6 +4921,7 @@ LayerCount: 2
 Fore
 Refer: 203 776 N 1 0 0 1 425 0 2
 Refer: 1 101 N 1 0 0 1 0 0 3
+Validated: 5
 Colour: d1b0ff
 EndChar
 
@@ -5021,6 +5036,7 @@ LayerCount: 2
 Fore
 Refer: 200 768 N 1 0 0 1 455 0 2
 Refer: 2 111 N 1 0 0 1 0 0 3
+Validated: 1
 Colour: d1b0ff
 EndChar
 
@@ -5034,6 +5050,7 @@ LayerCount: 2
 Fore
 Refer: 201 769 N 1 0 0 1 500 0 2
 Refer: 2 111 N 1 0 0 1 0 0 3
+Validated: 1
 Substitution2: "'locl' Polish kreska-1" oacute.plk
 Colour: d1b0ff
 EndChar
@@ -5048,6 +5065,7 @@ LayerCount: 2
 Fore
 Refer: 199 770 N 1 0 0 1 490 0 2
 Refer: 2 111 N 1 0 0 1 0 0 3
+Validated: 1
 Colour: d1b0ff
 EndChar
 
@@ -5061,6 +5079,7 @@ LayerCount: 2
 Fore
 Refer: 198 771 N 1 0 0 1 540 0 2
 Refer: 2 111 N 1 0 0 1 0 0 3
+Validated: 1
 Colour: d1b0ff
 EndChar
 
@@ -5074,6 +5093,7 @@ LayerCount: 2
 Fore
 Refer: 203 776 N 1 0 0 1 445 0 2
 Refer: 2 111 N 1 0 0 1 0 0 3
+Validated: 1
 Colour: d1b0ff
 EndChar
 
@@ -5265,6 +5285,7 @@ SplineSet
  210 0 l 5
 EndSplineSet
 Refer: 9 99 N 1 0 0 1 0 0 2
+Validated: 5
 EndChar
 
 StartChar: sterling
@@ -6339,6 +6360,7 @@ LayerCount: 2
 Fore
 Refer: 206 775 N 1 0 0 1 425 0 2
 Refer: 1 101 N 1 0 0 1 0 0 3
+Validated: 5
 Colour: d1b0ff
 EndChar
 
@@ -6394,6 +6416,7 @@ LayerCount: 2
 Fore
 Refer: 201 769 N 1 0 0 1 490 0 2
 Refer: 9 99 N 1 0 0 1 0 0 3
+Validated: 1
 Substitution2: "'locl' Polish kreska-1" cacute.plk
 Colour: d1b0ff
 EndChar
@@ -6422,6 +6445,7 @@ LayerCount: 2
 Fore
 Refer: 209 780 N 1 0 0 1 480 0 2
 Refer: 9 99 N 1 0 0 1 0 0 3
+Validated: 1
 Colour: d1b0ff
 EndChar
 
@@ -6449,6 +6473,7 @@ LayerCount: 2
 Fore
 Refer: 204 772 N 1 0 0 1 445 0 2
 Refer: 1 101 N 1 0 0 1 0 0 3
+Validated: 5
 Colour: d1b0ff
 EndChar
 
@@ -6490,6 +6515,7 @@ LayerCount: 2
 Fore
 Refer: 204 772 N 1 0 0 1 565 200 2
 Refer: 35 79 N 1 0 0 1 0 0 3
+Validated: 1
 Colour: d1b0ff
 EndChar
 
@@ -6503,6 +6529,7 @@ LayerCount: 2
 Fore
 Refer: 204 772 N 1 0 0 1 465 0 2
 Refer: 2 111 N 1 0 0 1 0 0 3
+Validated: 1
 Colour: d1b0ff
 EndChar
 
@@ -6782,6 +6809,7 @@ SplineSet
  355 450 425 400 425 300 c 3
  425 200 355 140 260 140 c 3
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: dieresis
@@ -7088,6 +7116,7 @@ SplineSet
  320 10 240 -20 240 -95 c 3
  240 -135 265 -160 310 -160 c 3
 EndSplineSet
+Validated: 5
 EndChar
 
 StartChar: Ecaron
@@ -7114,6 +7143,7 @@ LayerCount: 2
 Fore
 Refer: 209 780 N 1 0 0 1 470 0 2
 Refer: 1 101 N 1 0 0 1 0 0 3
+Validated: 5
 Colour: d1b0ff
 EndChar
 
@@ -7444,6 +7474,7 @@ LayerCount: 2
 Fore
 Refer: 208 779 N 1 0 0 1 600 200 2
 Refer: 35 79 N 1 0 0 1 0 0 3
+Validated: 1
 Colour: d1b0ff
 EndChar
 
@@ -7457,6 +7488,7 @@ LayerCount: 2
 Fore
 Refer: 208 779 N 1 0 0 1 500 0 2
 Refer: 2 111 N 1 0 0 1 0 0 3
+Validated: 1
 Colour: d1b0ff
 EndChar
 
