@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1459445766
-ModificationTime: 1462115982
+ModificationTime: 1462117220
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -75,7 +75,7 @@ Grid
  2000 450 l 1024
 EndSplineSet
 AnchorClass2: "bottom" "'mark' Mark Positioning in Latin lookup 0-1" "top" "'mark' Mark Positioning in Latin lookup 0-1" 
-BeginChars: 65543 380
+BeginChars: 65543 381
 
 StartChar: n
 Encoding: 110 110 0
@@ -489,7 +489,7 @@ SplineSet
  10 400 l 1
  10 415 l 1
  50 450 l 1
-262 610 m 3
+247 610 m 3
  199 610 172 593 172 561 c 3
  172 526 180 493 180 450 c 3
  180 115 l 1
@@ -503,10 +503,9 @@ SplineSet
  95 460 l 3
  95 565 155 690 282 690 c 3
  313 690 330 686 350 678 c 9
- 326 594 l 17
- 310 601 287 610 262 610 c 3
+ 326 589 l 17
+ 305 601 282 610 247 610 c 3
 EndSplineSet
-Validated: 5
 EndChar
 
 StartChar: v
@@ -1077,34 +1076,6 @@ Width: 260
 VWidth: 0
 Flags: MW
 LayerCount: 2
-Back
-SplineSet
--7 -220 m 7
- -38 -220 -62 -216 -82 -208 c 13
- -58 -122 l 21
- -34 -131 8 -143 39 -143 c 7
- 80.0302734375 -143 104.1328125 -119.793945312 123 -59 c 2
- 132 -30 l 1
- -12 335 l 1
- -48 405 l 1
- -98 430 l 25
- -98 450 l 25
- 115 450 l 25
- 115 430 l 25
- 65 405 l 25
- 81 335 l 25
- 175 83 l 1
- 261 335 l 1
- 276 405 l 25
- 217 430 l 25
- 217 450 l 25
- 392 450 l 25
- 392 430 l 25
- 338 405 l 25
- 303 335 l 1
- 171 -35 l 18
- 117.23828125 -182.34765625 68.0263671875 -220 -7 -220 c 7
-EndSplineSet
 Fore
 SplineSet
 65 620 m 3
@@ -3788,6 +3759,7 @@ SplineSet
  231 458 l 1
  60 435 l 1
 EndSplineSet
+Validated: 1
 EndChar
 
 StartChar: bracketleft
@@ -5740,13 +5712,44 @@ EndChar
 StartChar: mu
 Encoding: 181 181 185
 GlifName: mu
-Width: 500
+Width: 545
 VWidth: 0
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 105 -1 N 1 0 0 1 0 0 2
-Validated: 1
+SplineSet
+370 105 m 1
+ 370 140 l 1
+ 365 335 l 1
+ 353 400 l 1
+ 290 425 l 25
+ 290 445 l 1
+ 465 453 l 25
+ 450 340 l 1
+ 450 125 l 1
+ 462 60 l 1
+ 530 45 l 25
+ 530 25 l 1
+ 362 -10 l 1
+ 370 105 l 1
+85 335 m 9
+ 73 400 l 1
+ 5 426 l 25
+ 5 446 l 1
+ 180 454 l 25
+ 168 340 l 9
+ 168 190 l 2
+ 168 93 197 63 260 63 c 3
+ 316 63 345 98 370 140 c 1
+ 370 105 l 1
+ 337 43 308 -10 219 -10 c 3
+ 180.573535247 -10 155 15 140 40 c 9
+ 150 -65 l 1
+ 195 -190 l 29
+ 70 -220 l 17
+ 85 0 l 1
+ 85 335 l 9
+EndSplineSet
 EndChar
 
 StartChar: paragraph
@@ -7737,13 +7740,34 @@ EndChar
 StartChar: florin
 Encoding: 402 402 297
 GlifName: florin
-Width: 500
+Width: 330
 VWidth: 0
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 105 -1 N 1 0 0 1 0 0 2
-Validated: 1
+SplineSet
+180 10 m 3
+ 180 -95 120 -220 -7 -220 c 3
+ -38 -220 -55 -216 -75 -208 c 9
+ -51 -119 l 21
+ -30 -131 -7 -140 28 -140 c 3
+ 76 -140 103 -123 103 -91 c 3
+ 103 -56 95 -23 95 20 c 27
+ 95 460 l 3
+ 95 565 155 690 282 690 c 3
+ 313 690 330 686 350 678 c 9
+ 326 589 l 17
+ 305 601 282 610 247 610 c 3
+ 199 610 172 593 172 561 c 3
+ 172 526 180 493 180 450 c 3
+ 180 10 l 3
+300 450 m 1
+ 300 400 l 1
+ 10 400 l 1
+ 10 415 l 1
+ 50 450 l 1
+ 300 450 l 1
+EndSplineSet
 EndChar
 
 StartChar: uni0218
@@ -8564,13 +8588,28 @@ EndChar
 StartChar: estimated
 Encoding: 8494 8494 352
 GlifName: estimated
-Width: 500
-VWidth: 0
+Width: 510
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 105 -1 N 1 0 0 1 0 0 2
-Validated: 1
+SplineSet
+113 243 m 1
+ 397 243 l 1
+ 397 346 l 2
+ 397 364 336 421 256 421 c 3
+ 174 421 113 362 113 343 c 2
+ 113 243 l 1
+255 450 m 3
+ 363 450 480 364 480 215 c 1
+ 113 215 l 1
+ 113 113 l 2
+ 113 90 174 29 256 29 c 3
+ 314 29 365 53 400 98 c 1
+ 434 87 l 1
+ 393 35 328 0 255 0 c 3
+ 131 0 30 100 30 225 c 3
+ 30 349 131 450 255 450 c 3
+EndSplineSet
 EndChar
 
 StartChar: partialdiff
@@ -8835,7 +8874,6 @@ LayerCount: 2
 Fore
 Refer: 12 102 N 1 0 0 1 330 0 2
 Refer: 12 102 N 1 0 0 1 0 0 2
-Validated: 5
 LCarets2: 1 0
 EndChar
 
@@ -8849,7 +8887,6 @@ LayerCount: 2
 Fore
 Refer: 5 105 N 1 0 0 1 330 0 2
 Refer: 12 102 N 1 0 0 1 0 0 2
-Validated: 5
 LCarets2: 1 0
 EndChar
 
@@ -8911,7 +8948,6 @@ Fore
 Refer: 5 105 N 1 0 0 1 660 0 2
 Refer: 12 102 N 1 0 0 1 330 0 2
 Refer: 12 102 N 1 0 0 1 0 0 2
-Validated: 5
 EndChar
 
 StartChar: uniFB04
@@ -8924,7 +8960,6 @@ LayerCount: 2
 Fore
 Refer: 371 64258 N 1 0 0 1 330 0 2
 Refer: 12 102 N 1 0 0 1 0 0 2
-Validated: 5
 EndChar
 
 StartChar: kreska
@@ -9006,6 +9041,33 @@ LayerCount: 2
 Fore
 Refer: 105 -1 N 1 0 0 1 0 0 2
 Validated: 1
+EndChar
+
+StartChar: longs
+Encoding: 383 383 380
+Width: 310
+VWidth: 0
+Flags: HW
+LayerCount: 2
+Fore
+SplineSet
+237 610 m 3
+ 189 610 162 593 162 561 c 3
+ 162 526 170 493 170 450 c 0
+ 170 115 l 1
+ 185 45 l 25
+ 265 20 l 25
+ 265 0 l 25
+ 10 0 l 25
+ 10 20 l 25
+ 70 45 l 25
+ 85 115 l 1
+ 85 460 l 3
+ 85 565 145 690 272 690 c 3
+ 303 690 320 686 340 678 c 9
+ 316 589 l 17
+ 295 601 272 610 237 610 c 3
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont
