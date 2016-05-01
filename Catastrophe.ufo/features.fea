@@ -19,7 +19,7 @@ lookup loclPolishkreska {
 
 lookup ligaStandardLigatureslookup0 {
   lookupflag 0;
-    sub \f \l  by \uniFB02;
+    sub \f \l  by \fl;
 } ligaStandardLigatureslookup0;
 
 feature locl {
@@ -168,9 +168,9 @@ feature mark {
 	\uni2074 \uni20BD \uni20B9 \uni20BA \uni2113 \trademark \Omega \estimated 
 	\partialdiff \Delta \product \summation \uni2215 \uni2219 \radical \infinity 
 	\integral \approxequal \notequal \lessequal \greaterequal \lozenge \uni25CC 
-	\circle \uniFB00 \uniFB01 \uniFB03 \uniFB04 \cacute.plk \nacute.plk \oacute.plk 
+	\circle \uniFB00 \fi \uniFB03 \uniFB04 \cacute.plk \nacute.plk \oacute.plk 
 	\sacute.plk \zacute.plk ];
-@GDEF_Ligature = [\uniFB02 ];
+@GDEF_Ligature = [\fl ];
 @GDEF_Mark = [\tildecomb \circumflexcomb \gravecomb \acutecomb \diaeresiscomb 
 	\macroncomb \brevecomb \dotcomb \ringcomb \doubleacutecomb \caroncomb 
 	\highcommacomb \cedillacomb \commacomb \ogonekcomb \kreska ];
