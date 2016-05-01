@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uniFB03" format="1">
-  <advance width="500"/>
+  <advance width="935"/>
   <unicode hex="FB03"/>
   <outline>
-    <component base=".notdef"/>
+    <component base="i" xOffset="660"/>
+    <component base="f" xOffset="330"/>
+    <component base="f"/>
   </outline>
 </glyph>

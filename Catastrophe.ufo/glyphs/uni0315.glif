@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni0315" format="1">
-  <advance width="500"/>
+<glyph name="highcommacomb" format="1">
+  <advance width="0"/>
   <unicode hex="0315"/>
+  <outline>
+    <contour>
+      <point x="0" y="670" type="move" name="_top"/>
+    </contour>
+    <contour>
+      <point x="155" y="680" type="line"/>
+      <point x="240" y="650" type="line"/>
+      <point x="155" y="495" type="line"/>
+      <point x="120" y="505" type="line"/>
+    </contour>
+  </outline>
 </glyph>

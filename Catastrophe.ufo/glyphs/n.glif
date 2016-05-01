@@ -7,7 +7,7 @@
       <point x="285" y="450" type="move" name="top"/>
     </contour>
     <contour>
-      <point x="295" y="0" type="move" name="bottom"/>
+      <point x="290" y="0" type="move" name="bottom"/>
     </contour>
     <contour>
       <point x="485" y="110" type="line"/>

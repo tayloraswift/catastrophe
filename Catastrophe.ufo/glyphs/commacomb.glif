@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="commacomb" format="1">
+  <advance width="0"/>
+  <unicode hex="0326"/>
+  <outline>
+    <contour>
+      <point x="-165" y="0" type="move" name="_bottom"/>
+    </contour>
+    <contour>
+      <point x="-185" y="-50" type="line"/>
+      <point x="-100" y="-85" type="line"/>
+      <point x="-210" y="-230" type="line"/>
+      <point x="-245" y="-215" type="line"/>
+    </contour>
+  </outline>
+</glyph>

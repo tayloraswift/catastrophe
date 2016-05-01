@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<glyph name="uni0328" format="1">
+<glyph name="cacute.plk" format="1">
   <advance width="500"/>
-  <unicode hex="0328"/>
   <outline>
     <component base=".notdef"/>
   </outline>

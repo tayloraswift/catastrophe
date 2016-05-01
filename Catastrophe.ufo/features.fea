@@ -1,26 +1,77 @@
 languagesystem DFLT dflt;
+languagesystem DFLT PLK ;
+languagesystem grek dflt;
 languagesystem latn dflt;
+languagesystem latn PLK ;
 
+
+# GSUB 
+
+
+lookup loclPolishkreska {
+  lookupflag 0;
+    sub \oacute by \oacute.plk ;
+    sub \cacute by \cacute.plk ;
+    sub \sacute by \sacute.plk ;
+    sub \zacute by \zacute.plk ;
+    sub \nacute by \nacute.plk ;
+} loclPolishkreska;
+
+lookup ligaStandardLigatureslookup0 {
+  lookupflag 0;
+    sub \f \l  by \uniFB02;
+} ligaStandardLigatureslookup0;
+
+feature locl {
+
+ script DFLT;
+     language PLK  exclude_dflt;
+      lookup loclPolishkreska;
+
+ script latn;
+     language PLK  exclude_dflt;
+      lookup loclPolishkreska;
+} locl;
+
+feature liga {
+
+ script DFLT;
+     language dflt ;
+      lookup ligaStandardLigatureslookup0;
+
+ script grek;
+     language dflt ;
+      lookup ligaStandardLigatureslookup0;
+
+ script latn;
+     language dflt ;
+      lookup ligaStandardLigatureslookup0;
+} liga;
 
 # GPOS 
 
 
 lookup markMarkPositioninginLatinlookup0 {
   lookupflag 0;
-  markClass [\uni0327 ] <anchor -165 0> @bottom;
+  markClass [\cedillacomb \commacomb \ogonekcomb ] <anchor -165 0> @bottom;
   markClass [\tildecomb ] <anchor -290 450> @top;
-  markClass [\uni0302 \uni0306 \uni030C ] <anchor -240 450> @top;
+  markClass [\circumflexcomb \brevecomb \caroncomb ] <anchor -240 450> @top;
   markClass [\gravecomb ] <anchor -205 450> @top;
-  markClass [\acutecomb ] <anchor -250 450> @top;
-  markClass [\uni0308 \uni0307 ] <anchor -195 450> @top;
-  markClass [\uni0304 ] <anchor -215 450> @top;
-  markClass [\uni030A ] <anchor -180 450> @top;
+  markClass [\acutecomb \doubleacutecomb \kreska ] <anchor -250 450> @top;
+  markClass [\diaeresiscomb \dotcomb ] <anchor -195 450> @top;
+  markClass [\macroncomb ] <anchor -215 450> @top;
+  markClass [\ringcomb ] <anchor -180 450> @top;
+  markClass [\highcommacomb ] <anchor 0 670> @top;
   pos base [\n ] <anchor 285 450> mark @top
-	<anchor 295 0> mark @bottom;
+	<anchor 290 0> mark @bottom;
   pos base [\e ] <anchor 230 0> mark @bottom
 	<anchor 230 450> mark @top;
   pos base [\o \u ] <anchor 250 450> mark @top
 	<anchor 262 0> mark @bottom;
+  pos base [\d \k ] <anchor 275 0> mark @bottom
+	<anchor 380 670> mark @top;
+  pos base [\t ] <anchor 175 450> mark @top
+	<anchor 182 0> mark @bottom;
   pos base [\l \dotlessi ] <anchor 135 670> mark @top
 	<anchor 142 0> mark @bottom;
   pos base [\c ] <anchor 240 450> mark @top
@@ -49,17 +100,17 @@ lookup markMarkPositioninginLatinlookup0 {
 	<anchor 360 0> mark @bottom;
   pos base [\A ] <anchor 320 0> mark @bottom
 	<anchor 325 630> mark @top;
-  pos base [\L ] <anchor 175 650> mark @top
+  pos base [\L ] <anchor 185 650> mark @top
 	<anchor 295 0> mark @bottom;
   pos base [\C \G ] <anchor 365 650> mark @top
 	<anchor 365 0> mark @bottom;
-  pos base [\N ] <anchor 355 0> mark @bottom
-	<anchor 345 650> mark @top;
+  pos base [\K \N ] <anchor 345 650> mark @top
+	<anchor 350 0> mark @bottom;
   pos base [\R ] <anchor 290 650> mark @top
 	<anchor 330 0> mark @bottom;
   pos base [\S ] <anchor 250 0> mark @bottom
 	<anchor 270 650> mark @top;
-  pos base [\Z ] <anchor 280 650> mark @top
+  pos base [\T \Z ] <anchor 280 650> mark @top
 	<anchor 280 0> mark @bottom;
   pos base [\AE ] <anchor 445 0> mark @bottom
 	<anchor 515 650> mark @top;
@@ -98,32 +149,34 @@ feature mark {
 	\copyright \ordfeminine \guillemotleft \logicalnot \uni00AD \registered 
 	\macron \plusminus \uni00B2 \uni00B3 \Zcaron \mu \paragraph \periodcentered 
 	\zcaron \uni00B9 \ordmasculine \guillemotright \OE \oe \Ydieresis \questiondown 
-	\at \uni00A0 \dotlessi \uni030B \uni030D \uni0315 \amacron \Amacron \abreve 
-	\edotaccent \uni0146 \dcaron \Cacute \cacute \Ccaron \ccaron \Emacron \emacron 
-	\Imacron \imacron \Omacron \omacron \Sacute \sacute \Scedilla \scedilla \Umacron 
-	\umacron \Abreve \Gbreve \gbreve \Zacute \zacute \Nacute \nacute \Racute \racute 
-	\brokenbar \currency \dieresis \acute \cedilla \onequarter \onehalf 
-	\threequarters \Aogonek \aogonek \Dcaron \Dcroat \dcroat \Edotaccent \Eogonek 
-	\eogonek \Ecaron \ecaron \uni0122 \uni0123 \Iogonek \iogonek \Idotaccent 
-	\uni0136 \uni0137 \Lacute \lacute \uni013B \uni013C \Lcaron \lcaron \Lslash 
-	\lslash \uni0145 \Ncaron \ncaron \Ohungarumlaut \ohungarumlaut \uni0156 
-	\uni0157 \Rcaron \rcaron \uni0162 \uni0163 \Tcaron \tcaron \Uring \uring 
-	\Uhungarumlaut \uhungarumlaut \Uogonek \uogonek \Zdotaccent \zdotaccent 
-	\florin \uni0218 \uni0219 \uni021A \uni021B \circumflex \caron \uni02C9 \uni02CA 
-	\uni02CB \breve \dotaccent \ring \ogonek \tilde \hungarumlaut \uni0326 \uni0328 
-	\Pi \Sigma \pi \uni2000 \uni2001 \uni2002 \uni2003 \uni2004 \uni2005 \uni2006 
-	\uni2007 \uni2008 \uni2009 \uni200A \uni200B \uni200C \uni200D \uni2010 \uni2011 
-	\figuredash \quotesinglbase \quotedblbase \dagger \daggerdbl \bullet \ellipsis 
-	\perthousand \guilsinglleft \guilsinglright \fraction \uni2074 \uni20BD 
-	\uni20B9 \uni20BA \uni2113 \trademark \Omega \estimated \partialdiff \Delta 
-	\product \summation \uni2215 \uni2219 \radical \infinity \integral \approxequal 
-	\notequal \lessequal \greaterequal \lozenge \uni25CC \circle \uniFB00 \uniFB01 
-	\uniFB02 \uniFB03 \uniFB04 ];
-@GDEF_Mark = [\tildecomb \uni0302 \gravecomb \acutecomb \uni0308 \uni0304 \uni0306 
-	\uni0307 \uni030A \uni030C \uni0327 ];
+	\at \uni00A0 \dotlessi \amacron \Amacron \abreve \edotaccent \uni0146 \dcaron 
+	\Cacute \cacute \Ccaron \ccaron \Emacron \emacron \Imacron \imacron \Omacron 
+	\omacron \Sacute \sacute \Scedilla \scedilla \Umacron \umacron \Abreve \Gbreve 
+	\gbreve \Zacute \zacute \Nacute \nacute \Racute \racute \brokenbar \currency 
+	\dieresis \acute \cedilla \onequarter \onehalf \threequarters \Aogonek \aogonek 
+	\Dcaron \Dcroat \dcroat \Edotaccent \Eogonek \eogonek \Ecaron \ecaron \uni0122 
+	\uni0123 \Iogonek \iogonek \Idotaccent \uni0136 \uni0137 \Lacute \lacute 
+	\uni013B \uni013C \Lcaron \lcaron \Lslash \lslash \uni0145 \Ncaron \ncaron 
+	\Ohungarumlaut \ohungarumlaut \uni0156 \uni0157 \Rcaron \rcaron \uni0162 
+	\uni0163 \Tcaron \tcaron \Uring \uring \Uhungarumlaut \uhungarumlaut \Uogonek 
+	\uogonek \Zdotaccent \zdotaccent \florin \uni0218 \uni0219 \uni021A \uni021B 
+	\circumflex \caron \uni02C9 \uni02CA \uni02CB \breve \dotaccent \ring \ogonek 
+	\tilde \hungarumlaut \Pi \Sigma \pi \uni2000 \uni2001 \uni2002 \uni2003 \uni2004 
+	\uni2005 \uni2006 \uni2007 \uni2008 \uni2009 \uni200A \uni200B \uni200C \uni200D 
+	\uni2010 \uni2011 \figuredash \quotesinglbase \quotedblbase \dagger \daggerdbl 
+	\bullet \ellipsis \perthousand \guilsinglleft \guilsinglright \fraction 
+	\uni2074 \uni20BD \uni20B9 \uni20BA \uni2113 \trademark \Omega \estimated 
+	\partialdiff \Delta \product \summation \uni2215 \uni2219 \radical \infinity 
+	\integral \approxequal \notequal \lessequal \greaterequal \lozenge \uni25CC 
+	\circle \uniFB00 \uniFB01 \uniFB03 \uniFB04 \cacute.plk \nacute.plk \oacute.plk 
+	\sacute.plk \zacute.plk ];
+@GDEF_Ligature = [\uniFB02 ];
+@GDEF_Mark = [\tildecomb \circumflexcomb \gravecomb \acutecomb \diaeresiscomb 
+	\macroncomb \brevecomb \dotcomb \ringcomb \doubleacutecomb \caroncomb 
+	\highcommacomb \cedillacomb \commacomb \ogonekcomb \kreska ];
 
 table GDEF {
-  GlyphClassDef @GDEF_Simple, , @GDEF_Mark, ;
+  GlyphClassDef @GDEF_Simple, @GDEF_Ligature, @GDEF_Mark, ;
 
 } GDEF;
 

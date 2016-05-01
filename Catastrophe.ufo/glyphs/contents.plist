@@ -400,7 +400,7 @@
     <string>uni00A_0.glif</string>
     <key>tildecomb</key>
     <string>tildecomb.glif</string>
-    <key>uni0302</key>
+    <key>circumflexcomb</key>
     <string>uni0302.glif</string>
     <key>gravecomb</key>
     <string>gravecomb.glif</string>
@@ -408,25 +408,23 @@
     <string>acutecomb.glif</string>
     <key>dotlessi</key>
     <string>dotlessi.glif</string>
-    <key>uni0308</key>
+    <key>diaeresiscomb</key>
     <string>uni0308.glif</string>
-    <key>uni0304</key>
+    <key>macroncomb</key>
     <string>uni0304.glif</string>
-    <key>uni0306</key>
+    <key>brevecomb</key>
     <string>uni0306.glif</string>
-    <key>uni0307</key>
+    <key>dotcomb</key>
     <string>uni0307.glif</string>
-    <key>uni030A</key>
+    <key>ringcomb</key>
     <string>uni030A_.glif</string>
-    <key>uni030B</key>
+    <key>doubleacutecomb</key>
     <string>uni030B_.glif</string>
-    <key>uni030C</key>
+    <key>caroncomb</key>
     <string>uni030C_.glif</string>
-    <key>uni030D</key>
-    <string>uni030D_.glif</string>
-    <key>uni0315</key>
+    <key>highcommacomb</key>
     <string>uni0315.glif</string>
-    <key>uni0327</key>
+    <key>cedillacomb</key>
     <string>uni0327.glif</string>
     <key>amacron</key>
     <string>amacron.glif</string>
@@ -630,10 +628,10 @@
     <string>tilde.glif</string>
     <key>hungarumlaut</key>
     <string>hungarumlaut.glif</string>
-    <key>uni0326</key>
-    <string>uni0326.glif</string>
-    <key>uni0328</key>
-    <string>uni0328.glif</string>
+    <key>commacomb</key>
+    <string>commacomb.glif</string>
+    <key>ogonekcomb</key>
+    <string>ogonekcomb.glif</string>
     <key>Pi</key>
     <string>P_i.glif</string>
     <key>Sigma</key>
@@ -752,5 +750,17 @@
     <string>uniF_B_03.glif</string>
     <key>uniFB04</key>
     <string>uniF_B_04.glif</string>
+    <key>kreska</key>
+    <string>kreska.glif</string>
+    <key>cacute.plk</key>
+    <string>cacute.plk.glif</string>
+    <key>nacute.plk</key>
+    <string>nacute.plk.glif</string>
+    <key>oacute.plk</key>
+    <string>oacute.plk.glif</string>
+    <key>sacute.plk</key>
+    <string>sacute.plk.glif</string>
+    <key>zacute.plk</key>
+    <string>zacute.plk.glif</string>
   </dict>
 </plist>

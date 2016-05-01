@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glyph name="uni0219" format="1">
-  <advance width="500"/>
+  <advance width="410"/>
   <unicode hex="0219"/>
   <outline>
-    <component base=".notdef"/>
+    <component base="commacomb" xOffset="375"/>
+    <component base="s"/>
   </outline>
 </glyph>
