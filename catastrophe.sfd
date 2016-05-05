@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1459445766
-ModificationTime: 1462405156
+ModificationTime: 1462413460
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -56,7 +56,7 @@ NameList: AGL For New Fonts
 DisplaySize: -96
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 0 19 9
+WinInfo: 114 19 9
 BeginPrivate: 1
 BlueValues 31 [-10 0 450 460 650 660 680 680]
 EndPrivate
@@ -749,11 +749,11 @@ EndChar
 StartChar: g
 Encoding: 103 103 16
 GlifName: g
-Width: 520
+Width: 515
 VWidth: 0
 Flags: HMW
-AnchorPoint: "bottom" 250 -210 basechar 0
-AnchorPoint: "top" 270 450 basechar 0
+AnchorPoint: "bottom" 240 -210 basechar 0
+AnchorPoint: "top" 260 450 basechar 0
 LayerCount: 2
 Back
 SplineSet
@@ -785,40 +785,39 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-475 515 m 1
- 460 425 l 1
- 365 430 l 1
- 325 450 l 1
- 390 470 l 1
- 470 520 l 1
- 475 515 l 1
-155 175 m 9
- 185 165 l 17
- 170 150 158 128 158 113 c 3
- 158 81 180 75 315 75 c 3
- 430 75 475 50 475 -25 c 3
- 475 -125 355 -220 205 -220 c 3
- 130 -220 55 -190 55 -115 c 3
- 55 -55 100 -7 160 23 c 9
- 180 5 l 17
- 140 -20 130 -45 130 -85 c 3
- 130 -135 170 -170 250 -170 c 3
- 330 -170 402 -125 402 -60 c 3
- 402 -20 385 -10 255 -10 c 3
- 110 -10 80 25 80 75 c 3
- 80 105 115 145 155 175 c 9
-250 420 m 3
- 200 420 160 383 160 310 c 3
- 160 230 190 195 250 195 c 3
- 300 195 340 227 340 300 c 3
- 340 380 310 420 250 420 c 3
-240 155 m 3
- 120 155 70 210 70 300 c 3
- 70 390 150 460 260 460 c 3
- 380 460 430 400 430 310 c 3
- 430 220 350 155 240 155 c 3
+465 515 m 1
+ 450 425 l 1
+ 355 430 l 1
+ 315 450 l 1
+ 380 470 l 1
+ 460 520 l 1
+ 465 515 l 1
+145 175 m 9
+ 175 165 l 17
+ 160 150 148 128 148 113 c 3
+ 148 81 170 75 305 75 c 3
+ 420 75 465 50 465 -25 c 3
+ 465 -125 345 -220 195 -220 c 3
+ 120 -220 45 -190 45 -115 c 3
+ 45 -55 90 -7 150 23 c 9
+ 170 5 l 17
+ 130 -20 120 -45 120 -85 c 3
+ 120 -135 160 -170 240 -170 c 3
+ 320 -170 392 -125 392 -60 c 3
+ 392 -20 375 -10 245 -10 c 3
+ 100 -10 70 25 70 75 c 3
+ 70 105 105 145 145 175 c 9
+240 420 m 3
+ 190 420 150 383 150 310 c 3
+ 150 230 180 195 240 195 c 3
+ 290 195 330 227 330 300 c 3
+ 330 380 300 420 240 420 c 3
+230 155 m 3
+ 110 155 60 210 60 300 c 3
+ 60 390 140 460 250 460 c 3
+ 370 460 420 400 420 310 c 3
+ 420 220 340 155 230 155 c 3
 EndSplineSet
-Validated: 5
 EndChar
 
 StartChar: y
@@ -6713,14 +6712,13 @@ EndChar
 StartChar: gbreve
 Encoding: 287 287 236
 GlifName: gbreve
-Width: 520
+Width: 515
 VWidth: 0
 Flags: HM
 LayerCount: 2
 Fore
-Refer: 205 774 N 1 0 0 1 510 0 2
+Refer: 205 774 N 1 0 0 1 500 0 2
 Refer: 16 103 N 1 0 0 1 0 0 3
-Validated: 5
 Colour: d1b0ff
 EndChar
 
@@ -7228,14 +7226,13 @@ EndChar
 StartChar: uni0123
 Encoding: 291 291 262
 GlifName: uni0123
-Width: 520
+Width: 515
 VWidth: 0
 Flags: HMW
 LayerCount: 2
 Fore
-Refer: 313 806 N -1 0 0 -1 90 470 2
+Refer: 313 806 N -1 0 0 -1 80 470 2
 Refer: 16 103 N 1 0 0 1 0 0 2
-Validated: 5
 Colour: d1b0ff
 EndChar
 
