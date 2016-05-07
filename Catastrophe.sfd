@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1459445766
-ModificationTime: 1462655051
+ModificationTime: 1462663964
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -56,7 +56,7 @@ NameList: AGL For New Fonts
 DisplaySize: -128
 AntiAlias: 1
 FitToEm: 0
-WinInfo: 64 8 2
+WinInfo: 28 14 7
 BeginPrivate: 1
 BlueValues 31 [-10 0 450 460 650 660 680 680]
 EndPrivate
@@ -130,9 +130,9 @@ Encoding: 101 101 1
 GlifName: e
 Width: 440
 VWidth: 0
-Flags: HW
-HStem: -10 69<191.456 319.773> 240 35<130 300> 417 43<170.486 277.492>
-VStem: 35 95<130.725 337.456> 300 100<275 381.222>
+Flags: MW
+HStem: -10 70<197.279 333.932> 240 35<130 300> 417 43<170.486 277.492>
+VStem: 35 95<135.291 337.456> 300 100<275 381.222>
 AnchorPoint: "bottom" 230 0 basechar 0
 AnchorPoint: "top" 230 450 basechar 0
 LayerCount: 2
@@ -164,10 +164,10 @@ SplineSet
 305 305 m 1
  305 376 278 417 225 417 c 3
  171 417 130 375 130 255 c 3
- 130 120 181 59 266 59 c 3
- 306 59 357 74 385 95 c 1
- 400 75 l 1
- 365 25 308 -10 233 -10 c 7
+ 130 120 181 59 276 59 c 3
+ 326 59 357 69 385 85 c 1
+ 400 65 l 5
+ 365 20 308 -10 233 -10 c 3
  101 -10 35 83 35 220 c 3
  35 357 105 460 232 460 c 3
  347 460 400 380 400 295 c 1
@@ -410,7 +410,7 @@ GlifName: c
 Width: 440
 VWidth: 0
 Flags: W
-HStem: -10 70<196.312 328.742> 320 115<340 390> 417 43<182.947 313.134>
+HStem: -10 70<197.019 334.438> 320 115<340 390> 417 43<182.947 313.134>
 VStem: 35 95<134.654 328.287> 340 50<320 341.25>
 AnchorPoint: "top" 240 450 basechar 0
 AnchorPoint: "bottom" 240 0 basechar 0
@@ -436,10 +436,10 @@ SplineSet
 320 390 m 1xd8
  305 405 285 417 245 417 c 3
  160 417 130 328 130 248 c 3
- 130 118 185 60 275 60 c 3
- 315 60 355 70 385 95 c 1
- 400 75 l 1
- 375 35 315 -10 245 -10 c 3
+ 130 118 185 60 280 60 c 3
+ 320 60 355 65 385 85 c 1
+ 400 65 l 1
+ 375 30 315 -10 245 -10 c 3
  110 -10 35 75 35 210 c 3
  35 355 115 460 255 460 c 3xb8
  330 460 370 445 390 435 c 1
@@ -447,7 +447,6 @@ SplineSet
  340 315 l 1
  320 390 l 1xd8
 EndSplineSet
-Validated: 1
 EndChar
 
 StartChar: a
@@ -455,8 +454,8 @@ Encoding: 97 97 10
 GlifName: a
 Width: 465
 VWidth: 0
-Flags: HW
-HStem: -10 64<145.221 230.877> 205 35<172.523 290> 392 68<136.448 259.427>
+Flags: W
+HStem: -10 64<145.221 230.877> 205 35<172.523 290> 387 73<140.268 263.813>
 VStem: 35 95<68.4591 169.206> 290 85<90 358.609> 290 5<90 145>
 AnchorPoint: "top" 220 450 basechar 0
 AnchorPoint: "bottom" 225 0 basechar 0
@@ -780,9 +779,9 @@ Encoding: 103 103 16
 GlifName: g
 Width: 515
 VWidth: 0
-Flags: HW
+Flags: W
 HStem: -220 50<153.587 313.173> -10 85<165.463 382.292> 165 40<178.639 298.994> 420 40<182.636 298.224>
-VStem: 45 75<-138.392 -46.4554> 60 90<232.159 380.566> 70 78<50 128.53> 330 90<240.804 391.148> 392 73<-97.2903 -21.4932>
+VStem: 45 75<-138.392 -46.4554> 60 90<231.786 382.68> 70 78<50 128.53> 330 90<238.746 390.037> 392 73<-97.2903 -21.4932>
 AnchorPoint: "bottom" 240 -210 basechar 0
 AnchorPoint: "top" 260 450 basechar 0
 LayerCount: 2
@@ -4960,7 +4959,6 @@ LayerCount: 2
 Fore
 Refer: 211 807 N 1 0 0 1 405 0 2
 Refer: 9 99 N 1 0 0 1 0 0 3
-Validated: 5
 Colour: d1b0ff
 EndChar
 
@@ -5363,7 +5361,6 @@ SplineSet
  210 0 l 5
 EndSplineSet
 Refer: 9 99 N 1 0 0 1 0 0 2
-Validated: 5
 EndChar
 
 StartChar: sterling
@@ -6584,7 +6581,6 @@ LayerCount: 2
 Fore
 Refer: 201 769 N 1 0 0 1 490 0 2
 Refer: 9 99 N 1 0 0 1 0 0 3
-Validated: 1
 Substitution2: "'locl' Polish kreska-1" cacute.plk
 Colour: d1b0ff
 EndChar
@@ -6612,7 +6608,6 @@ LayerCount: 2
 Fore
 Refer: 209 780 N 1 0 0 1 480 0 2
 Refer: 9 99 N 1 0 0 1 0 0 3
-Validated: 1
 Colour: d1b0ff
 EndChar
 

@@ -4,7 +4,7 @@ fontforge.FontView.SelectedColor: #88b2de
 fontforge.FontView.SelectedFgColor: #ffffff
 fontforge.FontView.ChangedColor: #ff697d
 fontforge.FontView.HintingNeededColor: #e3e3e3
-fontforge.FontView.FontSize: 12
+fontforge.FontView.FontSize: 15
 fontforge.FontView.FontFamily: dejavu sans,fontview,courier,monospace,clearlyu,unifont
 
 fontforge.CharView.PointColor: #ff0000
@@ -15,7 +15,7 @@ fontforge.CharView.ExtremePointColor: #c00080
 fontforge.CharView.PointOfInflectionColor: #008080
 fontforge.CharView.AlmostHVColor: #00ff80
 fontforge.CharView.NextCPColor: #007090
-fontforge.CharView.PrevCPColor: #cc00cc
+fontforge.CharView.PrevCPColor: #ff0000
 fontforge.CharView.SelectedCPColor: #ffffff
 fontforge.CharView.CoordinateLineColor: #808080
 fontforge.CharView.ItalicCoordColor: #909090
@@ -119,7 +119,7 @@ Gdraw.GGadget.Box.BorderShape: rect
 Gdraw.GGadget.Box.BorderWidth: 1
 Gdraw.GGadget.Box.Padding: 2
 Gdraw.GGadget.Box.Radius: 0
-Gdraw.GGadget.Font: 400 10pt sans
+Gdraw.GGadget.Font: 400 20pt sans
 Gdraw.GGadget.TextImageSkip: 4
 Gdraw.GGadget.ImagePath: ~/.FontForge/tango-ct.theme:~/.FontForge/tango-ct.theme/tango:/Applications/FontForge.app/Contents/Resources/opt/local/share/fontforge/pixmaps/:=
 
@@ -134,7 +134,7 @@ Gdraw.GListMark.Box.BorderType: lowered
 Gdraw.GListMark.Box.BorderWidth: 2
 Gdraw.GListMark.Box.Padding: 0
 Gdraw.GListMark.Image: downarrow.png
-Gdraw.GListMark.Width: 8
+Gdraw.GListMark.Width: 17
 
 Gdraw.GLabel.Box.BorderType: none
 Gdraw.GLabel.Box.BorderWidth: 0
