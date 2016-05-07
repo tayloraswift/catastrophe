@@ -23,7 +23,7 @@ OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
 CreationTime: 1459445766
-ModificationTime: 1462663964
+ModificationTime: 1462664961
 PfmFamily: 17
 TTFWeight: 400
 TTFWidth: 5
@@ -128,9 +128,9 @@ EndChar
 StartChar: e
 Encoding: 101 101 1
 GlifName: e
-Width: 440
+Width: 445
 VWidth: 0
-Flags: MW
+Flags: HMW
 HStem: -10 70<197.279 333.932> 240 35<130 300> 417 43<170.486 277.492>
 VStem: 35 95<135.291 337.456> 300 100<275 381.222>
 AnchorPoint: "bottom" 230 0 basechar 0
@@ -166,15 +166,15 @@ SplineSet
  171 417 130 375 130 255 c 3
  130 120 181 59 276 59 c 3
  326 59 357 69 385 85 c 1
- 400 65 l 5
+ 400 65 l 1
  365 20 308 -10 233 -10 c 3
  101 -10 35 83 35 220 c 3
  35 357 105 460 232 460 c 3
  347 460 400 380 400 295 c 1
- 395 240 l 1
- 130 240 l 1
- 130 275 l 1
- 300 275 l 1
+ 395 240 l 5
+ 130 240 l 5
+ 130 275 l 5
+ 300 275 l 5
  305 305 l 1
 EndSplineSet
 EndChar
@@ -455,8 +455,8 @@ GlifName: a
 Width: 465
 VWidth: 0
 Flags: W
-HStem: -10 64<145.221 230.877> 205 35<172.523 290> 387 73<140.268 263.813>
-VStem: 35 95<68.4591 169.206> 290 85<90 358.609> 290 5<90 145>
+HStem: -10 64<145.221 230.877> 200 35<166.733 290> 387 73<140.268 263.813>
+VStem: 35 95<68.4591 168.093> 290 85<90 358.609> 290 5<90 145>
 AnchorPoint: "top" 220 450 basechar 0
 AnchorPoint: "bottom" 225 0 basechar 0
 LayerCount: 2
@@ -488,15 +488,15 @@ SplineSet
 EndSplineSet
 Fore
 SplineSet
-290 240 m 9xf8
- 290 205 l 17
- 180 205 130 185 130 120 c 3
+290 235 m 9xf8
+ 290 200 l 17
+ 180 200 130 185 130 120 c 3
  130 85 152 54 192 54 c 3
  237 54 280 80 290 145 c 1xf8
  295 90 l 1xf4
  275 36 220 -10 160 -10 c 3
  80 -10 35 35 35 105 c 3
- 35 190 120 240 290 240 c 9xf8
+ 35 190 120 235 290 235 c 9xf8
 225 460 m 3
  335 460 375 410 375 280 c 2
  375 115 l 17xf8
@@ -4006,7 +4006,7 @@ EndChar
 StartChar: egrave
 Encoding: 232 232 100
 GlifName: egrave
-Width: 440
+Width: 445
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -4965,7 +4965,7 @@ EndChar
 StartChar: eacute
 Encoding: 233 233 144
 GlifName: eacute
-Width: 440
+Width: 445
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -4978,7 +4978,7 @@ EndChar
 StartChar: ecircumflex
 Encoding: 234 234 145
 GlifName: ecircumflex
-Width: 440
+Width: 445
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -4991,7 +4991,7 @@ EndChar
 StartChar: edieresis
 Encoding: 235 235 146
 GlifName: edieresis
-Width: 440
+Width: 445
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -6520,7 +6520,7 @@ EndChar
 StartChar: edotaccent
 Encoding: 279 279 215
 GlifName: edotaccent
-Width: 440
+Width: 445
 VWidth: 0
 Flags: HMW
 LayerCount: 2
@@ -6628,7 +6628,7 @@ EndChar
 StartChar: emacron
 Encoding: 275 275 223
 GlifName: emacron
-Width: 440
+Width: 445
 VWidth: 0
 Flags: HM
 LayerCount: 2
@@ -7213,7 +7213,6 @@ LayerCount: 2
 Fore
 Refer: 206 775 N 1 0 0 1 505 200 2
 Refer: 39 69 N 1 0 0 1 0 0 3
-Validated: 5
 Colour: d1b0ff
 EndChar
 
@@ -7294,7 +7293,7 @@ EndChar
 StartChar: ecaron
 Encoding: 283 283 260
 GlifName: ecaron
-Width: 440
+Width: 445
 VWidth: 0
 Flags: HMW
 LayerCount: 2
